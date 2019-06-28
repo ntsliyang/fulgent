@@ -1,9 +1,0 @@
-//node modules folder
-node_scripts/*/node_modules
-
-//visual studio project files
-node_scripts/.vs
-node_scripts/*/.vs
-
-//html files
-node_scripts/*/*.html
