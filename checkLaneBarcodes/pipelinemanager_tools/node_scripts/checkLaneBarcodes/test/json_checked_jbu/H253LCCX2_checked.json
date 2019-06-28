@@ -1,0 +1,1332 @@
+{
+    "flowcell": "H253LCCX2",
+    "node": "checkLaneBarcodes",
+    "lanes": {
+        "1": {
+            "accessions": [
+                {
+                    "id": "PF012_1915637",
+                    "numberOfReads": 386442970,
+                    "lanePercentage": 83.9,
+                    "frontBarcode": "ACAGTG",
+                    "endBarcode": "",
+                    "q30": 89.28,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 74138927,
+                    "lanePercentage": 16.1,
+                    "q30": 87.95,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 47816020,
+                    "frontBarcode": "ANNGTG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 1346740,
+                    "frontBarcode": "NNNGTG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 500800,
+                    "frontBarcode": "CNNGTG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 426140,
+                    "frontBarcode": "AGTGAT",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 395880,
+                    "frontBarcode": "CCCCCC",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 352180,
+                    "frontBarcode": "CCCGTG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 320240,
+                    "frontBarcode": "ACCGCG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 294420,
+                    "frontBarcode": "ACCAGT",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 291760,
+                    "frontBarcode": "ANNGGG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 273080,
+                    "frontBarcode": "CACAGT",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ]
+        },
+        "2": {
+            "accessions": [
+                {
+                    "id": "PF013_1917857",
+                    "numberOfReads": 442793503,
+                    "lanePercentage": 95.02,
+                    "frontBarcode": "GCCAAT",
+                    "endBarcode": "",
+                    "q30": 90.7,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 23210002,
+                    "lanePercentage": 4.98,
+                    "q30": 81.06,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 650300,
+                    "frontBarcode": "GCCCCT",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 450560,
+                    "frontBarcode": "CCCCCC",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 445140,
+                    "frontBarcode": "CGCCAA",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 442540,
+                    "frontBarcode": "GCCCAA",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 415760,
+                    "frontBarcode": "GCCATA",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 371240,
+                    "frontBarcode": "GCAATA",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 258300,
+                    "frontBarcode": "GAAAAT",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 242900,
+                    "frontBarcode": "GCCCAC",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 234320,
+                    "frontBarcode": "GCCACC",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 190260,
+                    "frontBarcode": "GCCCCC",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ]
+        },
+        "3": {
+            "accessions": [
+                {
+                    "id": "PF014_1918580",
+                    "numberOfReads": 451563015,
+                    "lanePercentage": 95.76,
+                    "frontBarcode": "CAGATC",
+                    "endBarcode": "",
+                    "q30": 90.99,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 19985340,
+                    "lanePercentage": 4.24,
+                    "q30": 80.7,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 633160,
+                    "frontBarcode": "CCAGAT",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 530540,
+                    "frontBarcode": "AGATCA",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 457120,
+                    "frontBarcode": "CCCCCC",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 443200,
+                    "frontBarcode": "CCGCTC",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 268860,
+                    "frontBarcode": "CAGCCC",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 194140,
+                    "frontBarcode": "AAGATA",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 163280,
+                    "frontBarcode": "CAAGAT",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 162720,
+                    "frontBarcode": "CAGACA",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 153620,
+                    "frontBarcode": "CAGTCA",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 153560,
+                    "frontBarcode": "NAGCTC",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ]
+        },
+        "4": {
+            "accessions": [
+                {
+                    "id": "CCB040_1917256",
+                    "numberOfReads": 5188608,
+                    "lanePercentage": 1.06,
+                    "frontBarcode": "GATATCCT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.16,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917302",
+                    "numberOfReads": 5893418,
+                    "lanePercentage": 1.2,
+                    "frontBarcode": "TTGAGTCC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.3,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917341",
+                    "numberOfReads": 3228523,
+                    "lanePercentage": 0.66,
+                    "frontBarcode": "CGACTGAA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.4,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917343",
+                    "numberOfReads": 6473637,
+                    "lanePercentage": 1.32,
+                    "frontBarcode": "AACCGCAT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.1,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917344",
+                    "numberOfReads": 5142577,
+                    "lanePercentage": 1.05,
+                    "frontBarcode": "ACGGATCA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.05,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917345",
+                    "numberOfReads": 6271330,
+                    "lanePercentage": 1.28,
+                    "frontBarcode": "CGCGCTAT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 94.96,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917346",
+                    "numberOfReads": 2779289,
+                    "lanePercentage": 0.57,
+                    "frontBarcode": "GTCAAGCA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.3,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917348",
+                    "numberOfReads": 3670794,
+                    "lanePercentage": 0.75,
+                    "frontBarcode": "GCTGTGAA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.11,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917350",
+                    "numberOfReads": 5192085,
+                    "lanePercentage": 1.06,
+                    "frontBarcode": "CTGTATAC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.18,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917351",
+                    "numberOfReads": 5725548,
+                    "lanePercentage": 1.17,
+                    "frontBarcode": "GCGATGCC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 94.98,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917352",
+                    "numberOfReads": 4725629,
+                    "lanePercentage": 0.96,
+                    "frontBarcode": "TACAGGCT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 94.94,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917355",
+                    "numberOfReads": 5397390,
+                    "lanePercentage": 1.1,
+                    "frontBarcode": "TAGCTGCA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.01,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917370",
+                    "numberOfReads": 2000571,
+                    "lanePercentage": 0.41,
+                    "frontBarcode": "AAGTCTAG",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.33,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917372",
+                    "numberOfReads": 3698212,
+                    "lanePercentage": 0.75,
+                    "frontBarcode": "GTTAGGAC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.28,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917409",
+                    "numberOfReads": 5096776,
+                    "lanePercentage": 1.04,
+                    "frontBarcode": "GACCTTAC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.12,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917414",
+                    "numberOfReads": 4388794,
+                    "lanePercentage": 0.89,
+                    "frontBarcode": "ATGCAGAT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.27,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917415",
+                    "numberOfReads": 2332367,
+                    "lanePercentage": 0.48,
+                    "frontBarcode": "CCAATACG",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 94.63,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917422",
+                    "numberOfReads": 4716403,
+                    "lanePercentage": 0.96,
+                    "frontBarcode": "AATGTTCC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.12,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917428",
+                    "numberOfReads": 4540589,
+                    "lanePercentage": 0.93,
+                    "frontBarcode": "ACTCTGCT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 94.95,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917430",
+                    "numberOfReads": 3924150,
+                    "lanePercentage": 0.8,
+                    "frontBarcode": "GAATCGAC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.16,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917432",
+                    "numberOfReads": 3197477,
+                    "lanePercentage": 0.65,
+                    "frontBarcode": "CTCTTGGA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.25,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917434",
+                    "numberOfReads": 4684015,
+                    "lanePercentage": 0.96,
+                    "frontBarcode": "TAATATGC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.17,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917437",
+                    "numberOfReads": 3591446,
+                    "lanePercentage": 0.73,
+                    "frontBarcode": "CTAACGAT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.3,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917452",
+                    "numberOfReads": 6206207,
+                    "lanePercentage": 1.27,
+                    "frontBarcode": "GGAATTCA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.26,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917453",
+                    "numberOfReads": 4453426,
+                    "lanePercentage": 0.91,
+                    "frontBarcode": "TAGGAGAC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.22,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917454",
+                    "numberOfReads": 6981499,
+                    "lanePercentage": 1.42,
+                    "frontBarcode": "CGGTCGCA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.01,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917457",
+                    "numberOfReads": 3885107,
+                    "lanePercentage": 0.79,
+                    "frontBarcode": "TCCATTGA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.14,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917463",
+                    "numberOfReads": 4873814,
+                    "lanePercentage": 0.99,
+                    "frontBarcode": "TGTACCAA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.16,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917699",
+                    "numberOfReads": 2029919,
+                    "lanePercentage": 0.41,
+                    "frontBarcode": "ATCGGTGC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 94.9,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917702",
+                    "numberOfReads": 2467074,
+                    "lanePercentage": 0.5,
+                    "frontBarcode": "ACTAAGGC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 94.71,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917703",
+                    "numberOfReads": 5287446,
+                    "lanePercentage": 1.08,
+                    "frontBarcode": "TCGAACCT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.11,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917704",
+                    "numberOfReads": 2621779,
+                    "lanePercentage": 0.53,
+                    "frontBarcode": "GTTCATAA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.29,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917709",
+                    "numberOfReads": 4132586,
+                    "lanePercentage": 0.84,
+                    "frontBarcode": "GTGCTCGA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.18,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917711",
+                    "numberOfReads": 4336593,
+                    "lanePercentage": 0.88,
+                    "frontBarcode": "GGCCACGT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 94.76,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917725",
+                    "numberOfReads": 3837886,
+                    "lanePercentage": 0.78,
+                    "frontBarcode": "TATCACGA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.18,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917728",
+                    "numberOfReads": 3475894,
+                    "lanePercentage": 0.71,
+                    "frontBarcode": "TACGTCAA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.08,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917729",
+                    "numberOfReads": 6882830,
+                    "lanePercentage": 1.4,
+                    "frontBarcode": "TCTCGTAC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.14,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917730",
+                    "numberOfReads": 4422029,
+                    "lanePercentage": 0.9,
+                    "frontBarcode": "ATTGACGT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.09,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917731",
+                    "numberOfReads": 5187373,
+                    "lanePercentage": 1.06,
+                    "frontBarcode": "TGATCGGT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.11,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917734",
+                    "numberOfReads": 3717361,
+                    "lanePercentage": 0.76,
+                    "frontBarcode": "TGGTTAAC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.2,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917736",
+                    "numberOfReads": 6891131,
+                    "lanePercentage": 1.41,
+                    "frontBarcode": "ATTCGCCA",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.06,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917737",
+                    "numberOfReads": 2826151,
+                    "lanePercentage": 0.58,
+                    "frontBarcode": "AACGTGGT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.32,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917741",
+                    "numberOfReads": 5225722,
+                    "lanePercentage": 1.07,
+                    "frontBarcode": "CATGGCAC",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 94.98,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917744",
+                    "numberOfReads": 5501508,
+                    "lanePercentage": 1.12,
+                    "frontBarcode": "GCCAGTAT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.17,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917746",
+                    "numberOfReads": 5233217,
+                    "lanePercentage": 1.07,
+                    "frontBarcode": "GAGCGTCT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.08,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917769",
+                    "numberOfReads": 4780179,
+                    "lanePercentage": 0.97,
+                    "frontBarcode": "CAGAATGT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.27,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917772",
+                    "numberOfReads": 6252090,
+                    "lanePercentage": 1.27,
+                    "frontBarcode": "TAGGCCTT",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 95.09,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB040_1917778",
+                    "numberOfReads": 2390142,
+                    "lanePercentage": 0.49,
+                    "frontBarcode": "GTTACTGG",
+                    "endBarcode": "CAGGACGT",
+                    "q30": 94.82,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1904913",
+                    "numberOfReads": 1024998,
+                    "lanePercentage": 0.21,
+                    "frontBarcode": "GTTCATAA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.74,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1910275",
+                    "numberOfReads": 8316057,
+                    "lanePercentage": 1.7,
+                    "frontBarcode": "TGTGGACA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.67,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1914570",
+                    "numberOfReads": 3502326,
+                    "lanePercentage": 0.71,
+                    "frontBarcode": "TATCACGA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.66,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1914597",
+                    "numberOfReads": 6275166,
+                    "lanePercentage": 1.28,
+                    "frontBarcode": "GGAATTCA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.61,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1914628",
+                    "numberOfReads": 686892,
+                    "lanePercentage": 0.14,
+                    "frontBarcode": "GTTAGGAC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.43,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1914629",
+                    "numberOfReads": 1484406,
+                    "lanePercentage": 0.3,
+                    "frontBarcode": "CGACTGAA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.52,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1915505",
+                    "numberOfReads": 455930,
+                    "lanePercentage": 0.09,
+                    "frontBarcode": "TAGGAGAC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.09,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1915799",
+                    "numberOfReads": 8596255,
+                    "lanePercentage": 1.75,
+                    "frontBarcode": "AATGTTCC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.39,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1916995",
+                    "numberOfReads": 6897286,
+                    "lanePercentage": 1.41,
+                    "frontBarcode": "ATTGACGT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.44,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917011",
+                    "numberOfReads": 6965957,
+                    "lanePercentage": 1.42,
+                    "frontBarcode": "CTGGTAGT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.77,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917047",
+                    "numberOfReads": 4637907,
+                    "lanePercentage": 0.95,
+                    "frontBarcode": "TAATATGC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.59,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917185",
+                    "numberOfReads": 4770792,
+                    "lanePercentage": 0.97,
+                    "frontBarcode": "CAGTTCAT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.76,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917187",
+                    "numberOfReads": 4901477,
+                    "lanePercentage": 1,
+                    "frontBarcode": "AGGCATGC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.69,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917189",
+                    "numberOfReads": 7527496,
+                    "lanePercentage": 1.53,
+                    "frontBarcode": "ACGATATT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.22,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917190",
+                    "numberOfReads": 5761858,
+                    "lanePercentage": 1.17,
+                    "frontBarcode": "CGTCATCT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.93,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917194",
+                    "numberOfReads": 5036079,
+                    "lanePercentage": 1.03,
+                    "frontBarcode": "AACCGCAT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.5,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917195",
+                    "numberOfReads": 3932973,
+                    "lanePercentage": 0.8,
+                    "frontBarcode": "TAAGCACC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.7,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917260",
+                    "numberOfReads": 6127126,
+                    "lanePercentage": 1.25,
+                    "frontBarcode": "TTAACCGC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.72,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917305",
+                    "numberOfReads": 5708218,
+                    "lanePercentage": 1.16,
+                    "frontBarcode": "CGGTCGCA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.63,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917316",
+                    "numberOfReads": 7248185,
+                    "lanePercentage": 1.48,
+                    "frontBarcode": "AGCCGTTA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.1,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917361",
+                    "numberOfReads": 6359440,
+                    "lanePercentage": 1.3,
+                    "frontBarcode": "GCGATGCC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.55,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917365",
+                    "numberOfReads": 3006520,
+                    "lanePercentage": 0.61,
+                    "frontBarcode": "CTCTTGGA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.66,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917393",
+                    "numberOfReads": 6460013,
+                    "lanePercentage": 1.32,
+                    "frontBarcode": "GCCAGTAT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.65,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917403",
+                    "numberOfReads": 4038101,
+                    "lanePercentage": 0.82,
+                    "frontBarcode": "GAACTATT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.34,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917444",
+                    "numberOfReads": 3967232,
+                    "lanePercentage": 0.81,
+                    "frontBarcode": "GGCTTATA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.1,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917446_EXCLUDED",
+                    "numberOfReads": 18853,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TCCTGATC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.43,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917528",
+                    "numberOfReads": 6945329,
+                    "lanePercentage": 1.42,
+                    "frontBarcode": "TCTCCAGT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.97,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917577",
+                    "numberOfReads": 6345012,
+                    "lanePercentage": 1.29,
+                    "frontBarcode": "CTAACGAT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.33,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917631",
+                    "numberOfReads": 6602742,
+                    "lanePercentage": 1.35,
+                    "frontBarcode": "AGACTACC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.05,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917651",
+                    "numberOfReads": 6234770,
+                    "lanePercentage": 1.27,
+                    "frontBarcode": "GCAGACTA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.28,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917655",
+                    "numberOfReads": 6090183,
+                    "lanePercentage": 1.24,
+                    "frontBarcode": "ACTCTGCT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.46,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917659",
+                    "numberOfReads": 2425172,
+                    "lanePercentage": 0.49,
+                    "frontBarcode": "CCTGAAGA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.17,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917695",
+                    "numberOfReads": 5662106,
+                    "lanePercentage": 1.15,
+                    "frontBarcode": "ATCGGTGC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.44,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917712",
+                    "numberOfReads": 6672920,
+                    "lanePercentage": 1.36,
+                    "frontBarcode": "CGTAGAAT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.86,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917716",
+                    "numberOfReads": 2958568,
+                    "lanePercentage": 0.6,
+                    "frontBarcode": "CATTCTGA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.03,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917717",
+                    "numberOfReads": 5096426,
+                    "lanePercentage": 1.04,
+                    "frontBarcode": "GAGCGTCT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.48,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917719",
+                    "numberOfReads": 4896798,
+                    "lanePercentage": 1,
+                    "frontBarcode": "CTTCGAGC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.7,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917763",
+                    "numberOfReads": 7154468,
+                    "lanePercentage": 1.46,
+                    "frontBarcode": "CCATGCTT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917765",
+                    "numberOfReads": 7281914,
+                    "lanePercentage": 1.48,
+                    "frontBarcode": "CAAGGTTA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.89,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917777",
+                    "numberOfReads": 4796241,
+                    "lanePercentage": 0.98,
+                    "frontBarcode": "GCTTAGCG",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.92,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917780",
+                    "numberOfReads": 5362667,
+                    "lanePercentage": 1.09,
+                    "frontBarcode": "CATTAGTC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 95.03,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917785_EXCLUDED",
+                    "numberOfReads": 16600,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TACAGGCT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 93.86,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917788",
+                    "numberOfReads": 3856909,
+                    "lanePercentage": 0.79,
+                    "frontBarcode": "GAATCGAC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.77,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917789",
+                    "numberOfReads": 5366167,
+                    "lanePercentage": 1.09,
+                    "frontBarcode": "TCTCGTAC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 93.71,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917793",
+                    "numberOfReads": 5343091,
+                    "lanePercentage": 1.09,
+                    "frontBarcode": "CTGTATAC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.81,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917795",
+                    "numberOfReads": 6469193,
+                    "lanePercentage": 1.32,
+                    "frontBarcode": "GCACGGTC",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.79,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917941",
+                    "numberOfReads": 6131271,
+                    "lanePercentage": 1.25,
+                    "frontBarcode": "TACGTCAA",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.42,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "CCB043_1917965",
+                    "numberOfReads": 7791632,
+                    "lanePercentage": 1.59,
+                    "frontBarcode": "TCGAACCT",
+                    "endBarcode": "CCTATCCT",
+                    "q30": 94.46,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 31457597,
+                    "lanePercentage": 6.41,
+                    "q30": 87.87,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 104900,
+                    "frontBarcode": "CCCCCCCC",
+                    "endBarcode": "CCCCCCCC",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 49800,
+                    "frontBarcode": "AGTGCTCC",
+                    "endBarcode": "CCTATCCT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 47300,
+                    "frontBarcode": "CCCCCCCC",
+                    "endBarcode": "CCCCCNCC",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 43120,
+                    "frontBarcode": "TCGAACCT",
+                    "endBarcode": "CCGATNCT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 41340,
+                    "frontBarcode": "AGTGCTGC",
+                    "endBarcode": "CCTATCCT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 40480,
+                    "frontBarcode": "TGTGGACA",
+                    "endBarcode": "CCGATNCT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 40040,
+                    "frontBarcode": "GAATTCAA",
+                    "endBarcode": "CAGGACGT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 39740,
+                    "frontBarcode": "AGTGTTGC",
+                    "endBarcode": "CCTATCCT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 38480,
+                    "frontBarcode": "GCGATGCC",
+                    "endBarcode": "CAGGANGC",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 36240,
+                    "frontBarcode": "CCATGCTT",
+                    "endBarcode": "CCGATNCT",
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ]
+        }
+    }
+}

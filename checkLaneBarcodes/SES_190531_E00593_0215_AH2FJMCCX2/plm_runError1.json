@@ -1,0 +1,1458 @@
+{
+    "flowcell": "H2FJMCCX2",
+    "node": "checkLaneBarcodes",
+    "lanes": {
+        "1": {
+            "accessions": [
+                {
+                    "id": "SE5294_SA29366",
+                    "numberOfReads": 12948145,
+                    "lanePercentage": 2.66,
+                    "frontBarcode": "ATCACG",
+                    "endBarcode": "ATCACG",
+                    "q30": 94.65,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29367",
+                    "numberOfReads": 12876571,
+                    "lanePercentage": 2.65,
+                    "frontBarcode": "CGATGT",
+                    "endBarcode": "CGATGT",
+                    "q30": 94.63,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29368",
+                    "numberOfReads": 12190854,
+                    "lanePercentage": 2.51,
+                    "frontBarcode": "TTAGGC",
+                    "endBarcode": "TTAGGC",
+                    "q30": 94.12,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29369",
+                    "numberOfReads": 10688013,
+                    "lanePercentage": 2.2,
+                    "frontBarcode": "TGACCA",
+                    "endBarcode": "TGACCA",
+                    "q30": 94.93,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29370",
+                    "numberOfReads": 12263315,
+                    "lanePercentage": 2.52,
+                    "frontBarcode": "ACAGTG",
+                    "endBarcode": "ACAGTG",
+                    "q30": 95.17,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29371",
+                    "numberOfReads": 15646177,
+                    "lanePercentage": 3.22,
+                    "frontBarcode": "GCCAAT",
+                    "endBarcode": "GCCAAT",
+                    "q30": 94.72,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29372",
+                    "numberOfReads": 15208403,
+                    "lanePercentage": 3.13,
+                    "frontBarcode": "CAGATC",
+                    "endBarcode": "CAGATC",
+                    "q30": 95.02,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29373",
+                    "numberOfReads": 14435707,
+                    "lanePercentage": 2.97,
+                    "frontBarcode": "ACTTGA",
+                    "endBarcode": "ACTTGA",
+                    "q30": 95.26,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29374",
+                    "numberOfReads": 14109192,
+                    "lanePercentage": 2.9,
+                    "frontBarcode": "GATCAG",
+                    "endBarcode": "GATCAG",
+                    "q30": 95.12,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29375",
+                    "numberOfReads": 17013490,
+                    "lanePercentage": 3.5,
+                    "frontBarcode": "TAGCTT",
+                    "endBarcode": "TAGCTT",
+                    "q30": 95.05,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29376",
+                    "numberOfReads": 13421060,
+                    "lanePercentage": 2.76,
+                    "frontBarcode": "GGCTAC",
+                    "endBarcode": "GGCTAC",
+                    "q30": 94.32,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29377",
+                    "numberOfReads": 14720401,
+                    "lanePercentage": 3.03,
+                    "frontBarcode": "CTTGTA",
+                    "endBarcode": "CTTGTA",
+                    "q30": 95.29,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29378",
+                    "numberOfReads": 15172049,
+                    "lanePercentage": 3.12,
+                    "frontBarcode": "AGTCAA",
+                    "endBarcode": "AGTCAA",
+                    "q30": 95.08,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29379",
+                    "numberOfReads": 12763474,
+                    "lanePercentage": 2.62,
+                    "frontBarcode": "AGTTCC",
+                    "endBarcode": "AGTTCC",
+                    "q30": 95.17,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29380",
+                    "numberOfReads": 14991707,
+                    "lanePercentage": 3.08,
+                    "frontBarcode": "ATGTCA",
+                    "endBarcode": "ATGTCA",
+                    "q30": 95.22,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29381",
+                    "numberOfReads": 12310371,
+                    "lanePercentage": 2.53,
+                    "frontBarcode": "CCGTCC",
+                    "endBarcode": "CCGTCC",
+                    "q30": 94.38,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29382",
+                    "numberOfReads": 9518841,
+                    "lanePercentage": 1.96,
+                    "frontBarcode": "GTCCGC",
+                    "endBarcode": "GTCCGC",
+                    "q30": 94,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29383",
+                    "numberOfReads": 11807729,
+                    "lanePercentage": 2.43,
+                    "frontBarcode": "GTGAAA",
+                    "endBarcode": "GTGAAA",
+                    "q30": 95.3,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29384",
+                    "numberOfReads": 13026424,
+                    "lanePercentage": 2.68,
+                    "frontBarcode": "GTGGCC",
+                    "endBarcode": "GTGGCC",
+                    "q30": 94.27,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29385",
+                    "numberOfReads": 13850868,
+                    "lanePercentage": 2.85,
+                    "frontBarcode": "GTTTCG",
+                    "endBarcode": "GTTTCG",
+                    "q30": 95.25,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29386",
+                    "numberOfReads": 14414312,
+                    "lanePercentage": 2.96,
+                    "frontBarcode": "CGTACG",
+                    "endBarcode": "CGTACG",
+                    "q30": 94.45,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29387",
+                    "numberOfReads": 13507614,
+                    "lanePercentage": 2.78,
+                    "frontBarcode": "GAGTGG",
+                    "endBarcode": "GAGTGG",
+                    "q30": 95.09,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29388",
+                    "numberOfReads": 15058132,
+                    "lanePercentage": 3.09,
+                    "frontBarcode": "ACTGAT",
+                    "endBarcode": "ACTGAT",
+                    "q30": 95.32,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29389",
+                    "numberOfReads": 14856140,
+                    "lanePercentage": 3.05,
+                    "frontBarcode": "ATTCCT",
+                    "endBarcode": "ATTCCT",
+                    "q30": 95.26,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29390",
+                    "numberOfReads": 13604077,
+                    "lanePercentage": 2.8,
+                    "frontBarcode": "TCATCC",
+                    "endBarcode": "TCATCC",
+                    "q30": 95.01,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29391",
+                    "numberOfReads": 15022194,
+                    "lanePercentage": 3.09,
+                    "frontBarcode": "CAAAAG",
+                    "endBarcode": "CAAAAG",
+                    "q30": 94.99,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29392",
+                    "numberOfReads": 15803858,
+                    "lanePercentage": 3.25,
+                    "frontBarcode": "CAACTA",
+                    "endBarcode": "CAACTA",
+                    "q30": 94.99,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29393",
+                    "numberOfReads": 15042889,
+                    "lanePercentage": 3.09,
+                    "frontBarcode": "TATAAT",
+                    "endBarcode": "TATAAT",
+                    "q30": 95.17,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29394",
+                    "numberOfReads": 16777020,
+                    "lanePercentage": 3.45,
+                    "frontBarcode": "CACGAT",
+                    "endBarcode": "CACGAT",
+                    "q30": 95.17,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "SE5294_SA29395",
+                    "numberOfReads": 13543431,
+                    "lanePercentage": 2.78,
+                    "frontBarcode": "CTATAC",
+                    "endBarcode": "CTATAC",
+                    "q30": 94.9,
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 69966422,
+                    "lanePercentage": 14.38,
+                    "q30": 74.72,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 261700,
+                    "frontBarcode": "GGGGGG",
+                    "endBarcode": "AGATCT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 193520,
+                    "frontBarcode": "NAGCTT",
+                    "endBarcode": "NAGCTT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 191820,
+                    "frontBarcode": "NACGAT",
+                    "endBarcode": "NACGAT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 182500,
+                    "frontBarcode": "NAACTA",
+                    "endBarcode": "NAACTA",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 179960,
+                    "frontBarcode": "NCCAAT",
+                    "endBarcode": "NCCAAT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 176560,
+                    "frontBarcode": "NATAAT",
+                    "endBarcode": "NATAAT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 175020,
+                    "frontBarcode": "AGGGGG",
+                    "endBarcode": "AGATCT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 174020,
+                    "frontBarcode": "NAGATC",
+                    "endBarcode": "NAGATC",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 173480,
+                    "frontBarcode": "NCTGAT",
+                    "endBarcode": "NCTGAT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 173400,
+                    "frontBarcode": "NGTCAA",
+                    "endBarcode": "NGTCAA",
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ]
+        },
+        "2": {
+            "accessions": [
+                {
+                    "id": "SE5296_SA29456",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "ATATTGGC",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found TTAGGCAT+GCCAATAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5296_SA29457",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "ATTCAAGT",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found ATCACGTT+ACTTGAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5296_SA29458",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TGACCACT",
+                    "endBarcode": "ATTCAAGT",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found TGACCACT+ACTTGAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5296_SA29459",
+                    "numberOfReads": 3,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CGATGTTT",
+                    "endBarcode": "ATCGTGAT",
+                    "q30": 75.5,
+                    "status": "ERROR",
+                    "message": "Found CGATGTTT+ATCACGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5296_SA29460",
+                    "numberOfReads": 14,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "ATCGTGAT",
+                    "q30": 61.64,
+                    "status": "ERROR",
+                    "message": "Found TTAGGCAT+ATCACGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5296_SA29461",
+                    "numberOfReads": 2,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ACAGTGGT",
+                    "endBarcode": "ATCGTGAT",
+                    "q30": 56.13,
+                    "status": "ERROR",
+                    "message": "Found ACAGTGGT+ATCACGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5296_SA29462",
+                    "numberOfReads": 5,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ACTTGATG",
+                    "endBarcode": "ATCGTGAT",
+                    "q30": 46.09,
+                    "status": "ERROR",
+                    "message": "Found ACTTGATG+ATCACGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5296_SA29463",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "ATTGGTCA",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found ATCACGTT+TGACCAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5296_SA29464",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "ATTGGTCA",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found TTAGGCAT+TGACCAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5296_SA29465",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TGACCACT",
+                    "endBarcode": "ATACATCG",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found TGACCACT+CGATGTAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 449933190,
+                    "lanePercentage": 100,
+                    "q30": 67.66,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 62878700,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "GCCAATAT",
+                    "status": "SUCCESS",
+                    "message": "Match TTAGGCAT+ATATTGGC on lane:2row:32"
+                },
+                {
+                    "numberOfReads": 58686180,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "TGACCAAT",
+                    "status": "SUCCESS",
+                    "message": "Match ATCACGTT+ATTGGTCA on lane:2row:39"
+                },
+                {
+                    "numberOfReads": 47366080,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "ATCACGAT",
+                    "status": "SUCCESS",
+                    "message": "Match TTAGGCAT+ATCGTGAT on lane:2row:36"
+                },
+                {
+                    "numberOfReads": 44617900,
+                    "frontBarcode": "ACTTGATG",
+                    "endBarcode": "ATCACGAT",
+                    "status": "SUCCESS",
+                    "message": "Match ACTTGATG+ATCGTGAT on lane:2row:38"
+                },
+                {
+                    "numberOfReads": 43143760,
+                    "frontBarcode": "CGATGTTT",
+                    "endBarcode": "ATCACGAT",
+                    "status": "SUCCESS",
+                    "message": "Match CGATGTTT+ATCGTGAT on lane:2row:35"
+                },
+                {
+                    "numberOfReads": 34827920,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "TGACCAAT",
+                    "status": "SUCCESS",
+                    "message": "Match TTAGGCAT+ATTGGTCA on lane:2row:40"
+                },
+                {
+                    "numberOfReads": 22651460,
+                    "frontBarcode": "TGACCACT",
+                    "endBarcode": "ACTTGAAT",
+                    "status": "SUCCESS",
+                    "message": "Match TGACCACT+ATTCAAGT on lane:2row:34"
+                },
+                {
+                    "numberOfReads": 19646580,
+                    "frontBarcode": "TGACCACT",
+                    "endBarcode": "CGATGTAT",
+                    "status": "SUCCESS",
+                    "message": "Match TGACCACT+ATACATCG on lane:2row:41"
+                },
+                {
+                    "numberOfReads": 17291620,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "ACTTGAAT",
+                    "status": "SUCCESS",
+                    "message": "Match ATCACGTT+ATTCAAGT on lane:2row:33"
+                },
+                {
+                    "numberOfReads": 15502320,
+                    "frontBarcode": "ACAGTGGT",
+                    "endBarcode": "ATCACGAT",
+                    "status": "SUCCESS",
+                    "message": "Match ACAGTGGT+ATCGTGAT on lane:2row:37"
+                }
+            ]
+        },
+        "3": {
+            "accessions": [
+                {
+                    "id": "SE5297_SA29446",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "GATCAGCG",
+                    "endBarcode": "ATTGGTCA",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found GATCAGCG+TGACCAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5297_SA29447",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "GGCTACAG",
+                    "endBarcode": "ATGATCTG",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found GGCTACAG+CAGATCAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5297_SA29448",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ACTTGATG",
+                    "endBarcode": "ATTACAAG",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found ACTTGATG+CTTGTAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5297_SA29449",
+                    "numberOfReads": 1,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TAGCTTGT",
+                    "endBarcode": "ATTACAAG",
+                    "q30": 78.48,
+                    "status": "ERROR",
+                    "message": "Found TAGCTTGT+CTTGTAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5297_SA29450",
+                    "numberOfReads": 1,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "ATACATCG",
+                    "q30": 54.97,
+                    "status": "ERROR",
+                    "message": "Found TTAGGCAT+CGATGTAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5297_SA29451",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ACAGTGGT",
+                    "endBarcode": "ATTGGTCA",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found ACAGTGGT+TGACCAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5297_SA29452",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CGATGTTT",
+                    "endBarcode": "ATCACTGT",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found CGATGTTT+ACAGTGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5297_SA29453",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "ATATTGGC",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found TTAGGCAT+GCCAATAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5297_SA29454",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CGATGTTT",
+                    "endBarcode": "ATTCAAGT",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found CGATGTTT+ACTTGAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5297_SA29455",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "GGCTACAG",
+                    "endBarcode": "ATTACAAG",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found GGCTACAG+CTTGTAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 460705800,
+                    "lanePercentage": 100,
+                    "q30": 72.18,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 60208720,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "CGATGTAT",
+                    "status": "SUCCESS",
+                    "message": "Match TTAGGCAT+ATACATCG on lane:3row:47"
+                },
+                {
+                    "numberOfReads": 58445760,
+                    "frontBarcode": "GGCTACAG",
+                    "endBarcode": "CTTGTAAT",
+                    "status": "SUCCESS",
+                    "message": "Match GGCTACAG+ATTACAAG on lane:3row:52"
+                },
+                {
+                    "numberOfReads": 51580540,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "GCCAATAT",
+                    "status": "SUCCESS",
+                    "message": "Match TTAGGCAT+ATATTGGC on lane:3row:50"
+                },
+                {
+                    "numberOfReads": 46055920,
+                    "frontBarcode": "GATCAGCG",
+                    "endBarcode": "TGACCAAT",
+                    "status": "SUCCESS",
+                    "message": "Match GATCAGCG+ATTGGTCA on lane:3row:43"
+                },
+                {
+                    "numberOfReads": 39324940,
+                    "frontBarcode": "TAGCTTGT",
+                    "endBarcode": "CTTGTAAT",
+                    "status": "SUCCESS",
+                    "message": "Match TAGCTTGT+ATTACAAG on lane:3row:46"
+                },
+                {
+                    "numberOfReads": 27861360,
+                    "frontBarcode": "CGATGTTT",
+                    "endBarcode": "ACAGTGAT",
+                    "status": "SUCCESS",
+                    "message": "Match CGATGTTT+ATCACTGT on lane:3row:49"
+                },
+                {
+                    "numberOfReads": 27448640,
+                    "frontBarcode": "GGCTACAG",
+                    "endBarcode": "CAGATCAT",
+                    "status": "SUCCESS",
+                    "message": "Match GGCTACAG+ATGATCTG on lane:3row:44"
+                },
+                {
+                    "numberOfReads": 22385420,
+                    "frontBarcode": "ACTTGATG",
+                    "endBarcode": "CTTGTAAT",
+                    "status": "SUCCESS",
+                    "message": "Match ACTTGATG+ATTACAAG on lane:3row:45"
+                },
+                {
+                    "numberOfReads": 21963760,
+                    "frontBarcode": "CGATGTTT",
+                    "endBarcode": "ACTTGAAT",
+                    "status": "SUCCESS",
+                    "message": "Match CGATGTTT+ATTCAAGT on lane:3row:51"
+                },
+                {
+                    "numberOfReads": 19425180,
+                    "frontBarcode": "ACAGTGGT",
+                    "endBarcode": "TGACCAAT",
+                    "status": "SUCCESS",
+                    "message": "Match ACAGTGGT+ATTGGTCA on lane:3row:48"
+                }
+            ]
+        },
+        "4": {
+            "accessions": [
+                {
+                    "id": "SE5298_SA29436",
+                    "numberOfReads": 21,
+                    "lanePercentage": 0,
+                    "frontBarcode": "GGCTACAG",
+                    "endBarcode": "ATCACTGT",
+                    "q30": 67.44,
+                    "status": "ERROR",
+                    "message": "Found GGCTACAG+ACAGTGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5298_SA29437",
+                    "numberOfReads": 11,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CAGATCTG",
+                    "endBarcode": "ATGATCTG",
+                    "q30": 62.85,
+                    "status": "ERROR",
+                    "message": "Found CAGATCTG+CAGATCAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5298_SA29438",
+                    "numberOfReads": 387,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "ATCGTGAT",
+                    "q30": 62.25,
+                    "status": "ERROR",
+                    "message": "Found TTAGGCAT+ATCACGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5298_SA29439",
+                    "numberOfReads": 1298,
+                    "lanePercentage": 0,
+                    "frontBarcode": "GCCAATGT",
+                    "endBarcode": "ATCGTGAT",
+                    "q30": 61.08,
+                    "status": "ERROR",
+                    "message": "Found GCCAATGT+ATCACGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5298_SA29440",
+                    "numberOfReads": 222,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "ATCGTGAT",
+                    "q30": 61.31,
+                    "status": "ERROR",
+                    "message": "Found CTTGTACT+ATCACGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5298_SA29441",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "ATACATCG",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found ATCACGTT+CGATGTAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5298_SA29442",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CGATGTTT",
+                    "endBarcode": "ATACATCG",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found CGATGTTT+CGATGTAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5298_SA29443",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ACAGTGGT",
+                    "endBarcode": "ATACATCG",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found ACAGTGGT+CGATGTAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5298_SA29444",
+                    "numberOfReads": 181,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ACAGTGGT",
+                    "endBarcode": "ATCGTGAT",
+                    "q30": 62.02,
+                    "status": "ERROR",
+                    "message": "Found ACAGTGGT+ATCACGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5298_SA29445",
+                    "numberOfReads": 7,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "ATGATCTG",
+                    "q30": 54.21,
+                    "status": "ERROR",
+                    "message": "Found ATCACGTT+CAGATCAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 467210497,
+                    "lanePercentage": 100,
+                    "q30": 73.9,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 86014440,
+                    "frontBarcode": "GCCAATGT",
+                    "endBarcode": "ATCACGAT",
+                    "status": "SUCCESS",
+                    "message": "Match GCCAATGT+ATCGTGAT on lane:4row:57"
+                },
+                {
+                    "numberOfReads": 54994440,
+                    "frontBarcode": "CGATGTTT",
+                    "endBarcode": "CGATGTAT",
+                    "status": "SUCCESS",
+                    "message": "Match CGATGTTT+ATACATCG on lane:4row:60"
+                },
+                {
+                    "numberOfReads": 50068320,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "CGATGTAT",
+                    "status": "SUCCESS",
+                    "message": "Match ATCACGTT+ATACATCG on lane:4row:59"
+                },
+                {
+                    "numberOfReads": 33059340,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "ATCACGAT",
+                    "status": "SUCCESS",
+                    "message": "Match TTAGGCAT+ATCGTGAT on lane:4row:56"
+                },
+                {
+                    "numberOfReads": 32340840,
+                    "frontBarcode": "GGCTACAG",
+                    "endBarcode": "ACAGTGAT",
+                    "status": "SUCCESS",
+                    "message": "Match GGCTACAG+ATCACTGT on lane:4row:54"
+                },
+                {
+                    "numberOfReads": 26932960,
+                    "frontBarcode": "ACAGTGGT",
+                    "endBarcode": "ATCACGAT",
+                    "status": "SUCCESS",
+                    "message": "Match ACAGTGGT+ATCGTGAT on lane:4row:62"
+                },
+                {
+                    "numberOfReads": 25298320,
+                    "frontBarcode": "CAGATCTG",
+                    "endBarcode": "CAGATCAT",
+                    "status": "SUCCESS",
+                    "message": "Match CAGATCTG+ATGATCTG on lane:4row:55"
+                },
+                {
+                    "numberOfReads": 23890340,
+                    "frontBarcode": "ACAGTGGT",
+                    "endBarcode": "CGATGTAT",
+                    "status": "SUCCESS",
+                    "message": "Match ACAGTGGT+ATACATCG on lane:4row:61"
+                },
+                {
+                    "numberOfReads": 19209560,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "ATCACGAT",
+                    "status": "SUCCESS",
+                    "message": "Match CTTGTACT+ATCGTGAT on lane:4row:58"
+                },
+                {
+                    "numberOfReads": 13707620,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "CAGATCAT",
+                    "status": "SUCCESS",
+                    "message": "Match ATCACGTT+ATGATCTG on lane:4row:63"
+                }
+            ]
+        },
+        "5": {
+            "accessions": [
+                {
+                    "id": "SE5299_SA29430",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "ATCACTGT",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found ATCACGTT+ACAGTGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5299_SA29431",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "GATCAGCG",
+                    "endBarcode": "ATCACTGT",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found GATCAGCG+ACAGTGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5299_SA29432",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "ATGATCTG",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found ATCACGTT+CAGATCAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5299_SA29433",
+                    "numberOfReads": 1,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CAGATCTG",
+                    "endBarcode": "ATGATCTG",
+                    "q30": 68.21,
+                    "status": "ERROR",
+                    "message": "Found CAGATCTG+CAGATCAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5299_SA29434",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "ATTCAAGT",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found TTAGGCAT+ACTTGAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5299_SA29435",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "TAGCTTGT",
+                    "endBarcode": "ATTCAAGT",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found TAGCTTGT+ACTTGAAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 212872415,
+                    "lanePercentage": 100,
+                    "q30": 81.57,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 35610180,
+                    "frontBarcode": "CAGATCTG",
+                    "endBarcode": "CAGATCAT",
+                    "status": "SUCCESS",
+                    "message": "Match CAGATCTG+ATGATCTG on lane:5row:68"
+                },
+                {
+                    "numberOfReads": 14669060,
+                    "frontBarcode": "TTAGGCAT",
+                    "endBarcode": "ACTTGAAT",
+                    "status": "SUCCESS",
+                    "message": "Match TTAGGCAT+ATTCAAGT on lane:5row:69"
+                },
+                {
+                    "numberOfReads": 13127540,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "CAGATCAT",
+                    "status": "SUCCESS",
+                    "message": "Match ATCACGTT+ATGATCTG on lane:5row:67"
+                },
+                {
+                    "numberOfReads": 12425740,
+                    "frontBarcode": "ATCACGTT",
+                    "endBarcode": "ACAGTGAT",
+                    "status": "SUCCESS",
+                    "message": "Match ATCACGTT+ATCACTGT on lane:5row:65"
+                },
+                {
+                    "numberOfReads": 12310160,
+                    "frontBarcode": "GATCAGCG",
+                    "endBarcode": "ACAGTGAT",
+                    "status": "SUCCESS",
+                    "message": "Match GATCAGCG+ATCACTGT on lane:5row:66"
+                },
+                {
+                    "numberOfReads": 4960420,
+                    "frontBarcode": "TAGCTTGT",
+                    "endBarcode": "ACTTGAAT",
+                    "status": "SUCCESS",
+                    "message": "Match TAGCTTGT+ATTCAAGT on lane:5row:70"
+                },
+                {
+                    "numberOfReads": 1557540,
+                    "frontBarcode": "CCCCCCCC",
+                    "endBarcode": "AGATCTCG",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 884720,
+                    "frontBarcode": "CCCCCCCC",
+                    "endBarcode": "CCCCCCCC",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 515100,
+                    "frontBarcode": "GGGGGGGG",
+                    "endBarcode": "AGATCTCG",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 382300,
+                    "frontBarcode": "NAGATCTG",
+                    "endBarcode": "NAGATCAT",
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ]
+        },
+        "6": {
+            "accessions": [
+                {
+                    "id": "SE5300_SA29426",
+                    "numberOfReads": 2,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "ATATTGGC",
+                    "q30": 81.46,
+                    "status": "ERROR",
+                    "message": "Found CTTGTACT+GCCAATAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5300_SA29427",
+                    "numberOfReads": 1499,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "ATCGTGAT",
+                    "q30": 60.61,
+                    "status": "ERROR",
+                    "message": "Found CTTGTACT+ATCACGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5300_SA29428",
+                    "numberOfReads": 828,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "ATCACTGT",
+                    "q30": 68.63,
+                    "status": "ERROR",
+                    "message": "Found CTTGTACT+ACAGTGAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "SE5300_SA29429",
+                    "numberOfReads": 0,
+                    "lanePercentage": 0,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "ATACATCG",
+                    "q30": 0,
+                    "status": "ERROR",
+                    "message": "Found CTTGTACT+CGATGTAT f:exact e:reverse-complement"
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 476691592,
+                    "lanePercentage": 100,
+                    "q30": 69.97,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 180673320,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "GCCAATAT",
+                    "status": "SUCCESS",
+                    "message": "Match CTTGTACT+ATATTGGC on lane:6row:72"
+                },
+                {
+                    "numberOfReads": 99091080,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "ACAGTGAT",
+                    "status": "SUCCESS",
+                    "message": "Match CTTGTACT+ATCACTGT on lane:6row:74"
+                },
+                {
+                    "numberOfReads": 85359260,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "CGATGTAT",
+                    "status": "SUCCESS",
+                    "message": "Match CTTGTACT+ATACATCG on lane:6row:75"
+                },
+                {
+                    "numberOfReads": 13242300,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "ATCACGAT",
+                    "status": "SUCCESS",
+                    "message": "Match CTTGTACT+ATCGTGAT on lane:6row:73"
+                },
+                {
+                    "numberOfReads": 7187080,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "GCCAAGAT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 3870580,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "CGATGGAT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 2417160,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "GCCAATAG",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 2020920,
+                    "frontBarcode": "NTTGTACT",
+                    "endBarcode": "NCCAATAT",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 1535600,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "ACAGTGAG",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 1186800,
+                    "frontBarcode": "CTTGTACT",
+                    "endBarcode": "GGCAGTAT",
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ]
+        },
+        "7": {
+            "accessions": [
+                {
+                    "id": "SE5289_SA29274",
+                    "numberOfReads": 18852193,
+                    "lanePercentage": 9.84,
+                    "frontBarcode": "ATCACG",
+                    "endBarcode": "",
+                    "q30": 33.21,
+                    "status": "ERROR",
+                    "message": ""
+                },
+                {
+                    "id": "SE5289_SA29275",
+                    "numberOfReads": 17286911,
+                    "lanePercentage": 9.02,
+                    "frontBarcode": "TGACCA",
+                    "endBarcode": "",
+                    "q30": 33.09,
+                    "status": "ERROR",
+                    "message": ""
+                },
+                {
+                    "id": "SE5289_SA29276",
+                    "numberOfReads": 25115015,
+                    "lanePercentage": 13.11,
+                    "frontBarcode": "ACATGT",
+                    "endBarcode": "",
+                    "q30": 33.85,
+                    "status": "ERROR",
+                    "message": ""
+                },
+                {
+                    "id": "SE5289_SA29277",
+                    "numberOfReads": 22209699,
+                    "lanePercentage": 11.59,
+                    "frontBarcode": "GCCAAT",
+                    "endBarcode": "",
+                    "q30": 32.36,
+                    "status": "ERROR",
+                    "message": ""
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 108137990,
+                    "lanePercentage": 56.44,
+                    "q30": 33.21,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 11781700,
+                    "frontBarcode": "ATTACG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 11579640,
+                    "frontBarcode": "TGACTA",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 6244660,
+                    "frontBarcode": "GCTAAT",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 4050840,
+                    "frontBarcode": "ATTAGG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 2870540,
+                    "frontBarcode": "TGACCC",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 2767900,
+                    "frontBarcode": "AGATGT",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 2734420,
+                    "frontBarcode": "ATTATG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 2320440,
+                    "frontBarcode": "TGAGTA",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 2263400,
+                    "frontBarcode": "TGACCG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 2098020,
+                    "frontBarcode": "GTCACG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ]
+        },
+        "8": {
+            "accessions": [
+                {
+                    "id": "SE5290_SA29270",
+                    "numberOfReads": 3315198,
+                    "lanePercentage": 1.44,
+                    "frontBarcode": "CAGATC",
+                    "endBarcode": "",
+                    "q30": 31.76,
+                    "status": "ERROR",
+                    "message": ""
+                },
+                {
+                    "id": "SE5290_SA29271",
+                    "numberOfReads": 4391776,
+                    "lanePercentage": 1.91,
+                    "frontBarcode": "ACTTGA",
+                    "endBarcode": "",
+                    "q30": 33.15,
+                    "status": "ERROR",
+                    "message": ""
+                },
+                {
+                    "id": "SE5290_SA29272",
+                    "numberOfReads": 35486983,
+                    "lanePercentage": 15.43,
+                    "frontBarcode": "ATCACG",
+                    "endBarcode": "",
+                    "q30": 32.51,
+                    "status": "ERROR",
+                    "message": ""
+                },
+                {
+                    "id": "SE5290_SA29273",
+                    "numberOfReads": 48509964,
+                    "lanePercentage": 21.1,
+                    "frontBarcode": "GATCAG",
+                    "endBarcode": "",
+                    "q30": 31.23,
+                    "status": "ERROR",
+                    "message": ""
+                },
+                {
+                    "id": "Undetermined",
+                    "numberOfReads": 138222247,
+                    "lanePercentage": 60.12,
+                    "q30": 32.42,
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ],
+            "unknown": [
+                {
+                    "numberOfReads": 31492340,
+                    "frontBarcode": "GATTAG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 5966240,
+                    "frontBarcode": "GGTCAG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 5935620,
+                    "frontBarcode": "GATGAG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 5465880,
+                    "frontBarcode": "GATTGG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 5114420,
+                    "frontBarcode": "GATCGG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 4256600,
+                    "frontBarcode": "GGTTAG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 3595220,
+                    "frontBarcode": "GATTTG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 3325040,
+                    "frontBarcode": "ATCAGG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                },
+                {
+                    "numberOfReads": 3313820,
+                    "frontBarcode": "GATCTG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": "Match CAGATC on lane:8row:82"
+                },
+                {
+                    "numberOfReads": 2658400,
+                    "frontBarcode": "GGTTGG",
+                    "endBarcode": "",
+                    "status": "SUCCESS",
+                    "message": ""
+                }
+            ]
+        }
+    }
+}

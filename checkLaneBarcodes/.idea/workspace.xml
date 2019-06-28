@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="checkLaneBarcodes:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f378a963-128c-4234-9148-070b6a2a15cb" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/test_results" userTempatePath="" />
+  <component name="FavoritesManager">
+    <favorites_list name="checkLaneBarcodes" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5361184">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/checkLaneBarcodes.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="242">
+                  <caret line="219" column="1" selection-start-line="219" selection-start-column="1" selection-end-line="219" selection-end-column="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/checkMultiLaneBarcodesTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1350">
+                  <caret line="108" column="35" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Parser/ConversionResults/DemuxResults/DemuxResultsEntry.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Parser/ConversionResults/ConversionResultsEntry.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="690">
+                  <caret line="72" column="43" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="43" />
+                  <folding>
+                    <element signature="e#1254#1255#0" expanded="true" />
+                    <element signature="e#1283#1284#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="19" selection-start-column="19" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/checkLaneBarcodesTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="615">
+                  <caret line="41" selection-start-line="41" selection-end-line="42" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="626">
+                  <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.aws/config">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>color</find>
+      <find>TopUnknownTableEntries</find>
+      <find>accessions</find>
+      <find>gson</find>
+      <find>topunkn</find>
+      <find>id</find>
+      <find>f:</find>
+      <find>rawcluster</find>
+      <find>countMax</find>
+      <find>pctLaneMin</find>
+      <find>meanq</find>
+      <find>invalid bar</find>
+      <find>\n</find>
+      <find>data.get</find>
+      <find>\\s</find>
+      <find>background-color</find>
+      <find>count:warning;</find>
+      <find>count:warning</find>
+      <find>matches</find>
+      <find>status</find>
+      <find>&quot;SUCCESS&quot;</find>
+      <find>&quot;ERROR&quot;</find>
+      <find>80</find>
+      <find>aws_access_key_id</find>
+      <find>summary</find>
+      <find>ge</find>
+      <find>getFlow</find>
+      <find>found</find>
+      <find>match</find>
+      <find>sys</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ntsliyang" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ReadMetricsEntry.java" />
+        <option value="$PROJECT_DIR$/src/Undetermined.java" />
+        <option value="$PROJECT_DIR$/src/UnknownBarcodesEntry.java" />
+        <option value="$PROJECT_DIR$/src/UnknownArrayEntry.java" />
+        <option value="$PROJECT_DIR$/src/LaneSummaryEntry.java" />
+        <option value="$PROJECT_DIR$/src/UnknownTableEntry.java" />
+        <option value="$PROJECT_DIR$/src/LaneJson.java" />
+        <option value="$PROJECT_DIR$/src/Accession.java" />
+        <option value="$PROJECT_DIR$/src/Unknown.java" />
+        <option value="$PROJECT_DIR$/src/Data.java" />
+        <option value="$PROJECT_DIR$/src/FlowCellSummary.java" />
+        <option value="$PROJECT_DIR$/src/checkLaneBarcodes.java" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/ConversionResults/DemuxResultsEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UnknownArray/UnknownArrayEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/LaneNumberReadInfos/ReadInfos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataHTML/UnknownTableEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataHTML/LaneSummaryEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/LaneNumberReadInfos/LaneNumberReadInfos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/ConversionResults/DemuxResults/ReadMetricsEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/ConversionResults/IndexMetrics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/ConversionResults/DemuxResults/DemuxResultsEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/ConversionResults/Undetermined.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/Stats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataJson/LaneJson/Accessions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataJson/LaneJson/Accession/UndeterminedAccession.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataJson/FlowCellSummary/FlowCellSummary.java" />
+        <option value="$PROJECT_DIR$/pipelinemanager_tools/node_scripts/checkLaneBarcodes/checkLaneBarcodes.js" />
+        <option value="$PROJECT_DIR$/src/main/java/DataJson/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataHTML/Colors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataHTML/ColorsEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataJson/LaneJson/Unknown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataJson/LaneJson/Accession/DeterminedAccession.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataJson/LaneJson/DeterminedAccession.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataJson/LaneJson/Accession.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataJson/LaneJson/LaneJson.java" />
+        <option value="$USER_HOME$/.aws/config" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/MutliStats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/UnknownBarcodes/UnknownBarcodesEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/MultiStats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataJson/MultiData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/checkMultiLaneBarcodes.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/checkLaneBarcodesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/checkLaneBarcodes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/ConversionResults/ConversionResultsEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/ConversionResults/ConversionResultsEntryComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/ConversionResults/DemuxResults/DemuxResultsEntryComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/UnknownBarcodes/UnknownBarcodesEntryComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/checkMultiLaneBarcodesTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="checkLaneBarcodes" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="795" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="checkLaneBarcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="checkLaneBarcodes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="checkLaneBarcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="checkLaneBarcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="checkLaneBarcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="checkLaneBarcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="checkLaneBarcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="checkLaneBarcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="checkLaneBarcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="checkLaneBarcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="checkLaneBarcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="checkLaneBarcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="checkLaneBarcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="checkLaneBarcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="checkLaneBarcodes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="checkLaneBarcodes" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21494253" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yli\IdeaProjects\checkLaneBarcodes" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yli\IdeaProjects\checkLaneBarcodes\test" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="stats" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="checkLaneBarcodes" />
+      <module name="checkLaneBarcodes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="assembly:single" />
+      </method>
+    </configuration>
+    <configuration name="checkLaneBarcodes" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checkLaneBarcodes" />
+      <module name="checkLaneBarcodes" />
+      <option name="VM_PARAMETERS" value="-ea -Dinput=pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_source/ -Doutput=pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_checked/all_checked.json" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="checkLaneBarcodes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="assembly:single" />
+      </method>
+    </configuration>
+    <configuration name="checkLaneBarcodesTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checkLaneBarcodes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkLaneBarcodesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkLaneBarcodesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checkLaneBarcodes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkLaneBarcodesTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dinput=pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_source/ -Doutput=pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_checked/all_checked.json" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkLaneBarcodesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checkLaneBarcodes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkLaneBarcodesTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dinput=SES_190531_E00593_0215_AH2FJMCCX2/Analysis/Stats/Stats.json -Doutput=SES_190531_E00593_0215_AH2FJMCCX2/Analysis/Stats_checked.json -DexpectedOutputJsonPath=SES_190531_E00593_0215_AH2FJMCCX2/plm_runError1.json" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkLaneBarcodesTest.dataJsonOutputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checkLaneBarcodes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkLaneBarcodesTest" />
+      <option name="METHOD_NAME" value="dataJsonOutputTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkLaneBarcodesTest.matchColorTest" type="JUnit" factoryName="JUnit">
+      <module name="checkLaneBarcodes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkLaneBarcodesTest" />
+      <option name="METHOD_NAME" value="matchColorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dinput=SES_190531_E00593_0215_AH2FJMCCX2/Analysis/Stats/Stats.json -Doutput=SES_190531_E00593_0215_AH2FJMCCX2/Analysis/Stats_checked.json -DexpectedOutputJsonPath=SES_190531_E00593_0215_AH2FJMCCX2/plm_runError1.json -DexpectedOutputHTMLPath=SES_190531_E00593_0215_AH2FJMCCX2/Analysis/Reports/html/H2FJMCCX2/all/all/all/laneBarcode_checked.html" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkLaneBarcodesTest.matchFlowcellSummary" type="JUnit" factoryName="JUnit">
+      <module name="checkLaneBarcodes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkLaneBarcodesTest" />
+      <option name="METHOD_NAME" value="matchFlowcellSummary" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dinput=SES_190531_E00593_0215_AH2FJMCCX2/Analysis/Stats/Stats.json -Doutput=SES_190531_E00593_0215_AH2FJMCCX2/Analysis/Stats_checked.json -DexpectedOutputJsonPath=SES_190531_E00593_0215_AH2FJMCCX2/plm_runError1.json -DexpectedOutputHTMLPath=SES_190531_E00593_0215_AH2FJMCCX2/Analysis/Reports/html/H2FJMCCX2/all/all/all/laneBarcode_checked.html" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkLaneBarcodesTest.parseTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checkLaneBarcodes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkLaneBarcodesTest" />
+      <option name="METHOD_NAME" value="parseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkLaneBarcodesTest.parseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checkLaneBarcodes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkLaneBarcodesTest" />
+      <option name="METHOD_NAME" value="parseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dinput=pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_source/H25CTCCX2.json -Doutput=pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_checked/H25CTCCX2_checked.json" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Java Scratch">
+      <module name="checkLaneBarcodes" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/checkLaneBarcodes.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkLaneBarcodes [assembly:single]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="assembly:single" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="assembly:single" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.checkLaneBarcodes" />
+      <item itemvalue="JUnit.checkLaneBarcodesTest.matchColorTest" />
+      <item itemvalue="JUnit.checkLaneBarcodesTest.matchFlowcellSummary" />
+      <item itemvalue="JUnit.checkLaneBarcodesTest (1)" />
+      <item itemvalue="JUnit.checkLaneBarcodesTest.parseTest (1)" />
+      <item itemvalue="JUnit.checkLaneBarcodesTest" />
+      <item itemvalue="JUnit.checkLaneBarcodesTest.parseTest" />
+      <item itemvalue="JUnit.checkLaneBarcodesTest.dataJsonOutputTest" />
+      <item itemvalue="Maven.checkLaneBarcodes [assembly:single]" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f378a963-128c-4234-9148-070b6a2a15cb" name="Default Changelist" comment="" />
+      <created>1558545433558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558545433558</updated>
+      <workItem from="1558545440710" duration="15845000" />
+      <workItem from="1558626193128" duration="25293000" />
+      <workItem from="1558711804187" duration="24150000" />
+      <workItem from="1559058905477" duration="410000" />
+      <workItem from="1559059352776" duration="5931000" />
+      <workItem from="1559144385407" duration="16356000" />
+      <workItem from="1559165484842" duration="11894000" />
+      <workItem from="1559229400669" duration="16008000" />
+      <workItem from="1559317257215" duration="2039000" />
+      <workItem from="1559328338376" duration="13128000" />
+      <workItem from="1559574204423" duration="14549000" />
+      <workItem from="1559602008826" duration="1068000" />
+      <workItem from="1559662992690" duration="22256000" />
+      <workItem from="1559694587946" duration="786000" />
+      <workItem from="1559750560362" duration="24123000" />
+      <workItem from="1559836696633" duration="20501000" />
+      <workItem from="1559922784579" duration="4142000" />
+      <workItem from="1559930458303" duration="1236000" />
+      <workItem from="1560182581615" duration="4326000" />
+      <workItem from="1560269646958" duration="11275000" />
+      <workItem from="1560295510721" duration="3971000" />
+      <workItem from="1560356596372" duration="3649000" />
+      <workItem from="1560364374506" duration="2000" />
+      <workItem from="1560444347880" duration="7839000" />
+      <workItem from="1560964758525" duration="4038000" />
+      <workItem from="1561136908764" duration="13000" />
+      <workItem from="1561136945626" duration="710000" />
+      <workItem from="1561400268985" duration="382000" />
+      <workItem from="1561497108340" duration="58000" />
+      <workItem from="1561501121910" duration="1019000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1558735482049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558735482049</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="checkLaneBarcodesTest - 2019.06.11 at 16h 55m 28s.xml">
+      <configuration name="checkLaneBarcodesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="checkLaneBarcodesTest - 2019.06.11 at 17h 02m 20s.xml">
+      <configuration name="checkLaneBarcodesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="checkLaneBarcodesTest - 2019.06.11 at 17h 02m 51s.xml">
+      <configuration name="checkLaneBarcodesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="checkLaneBarcodesTest - 2019.06.12 at 09h 52m 42s.xml">
+      <configuration name="checkLaneBarcodesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="checkLaneBarcodesTest - 2019.06.12 at 09h 53m 46s.xml">
+      <configuration name="checkLaneBarcodesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="checkLaneBarcodesTest - 2019.06.12 at 09h 54m 16s.xml">
+      <configuration name="checkLaneBarcodesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="checkLaneBarcodesTest_parseTest_(1) - 2019.06.12 at 10h 19m 57s.xml">
+      <configuration name="checkLaneBarcodesTest.parseTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="checkLaneBarcodesTest_(1) - 2019.06.12 at 10h 20m 23s.xml">
+      <configuration name="checkLaneBarcodesTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="checkLaneBarcodesTest - 2019.06.12 at 10h 20m 58s.xml">
+      <configuration name="checkLaneBarcodesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="checkLaneBarcodesTest - 2019.06.12 at 10h 21m 30s.xml">
+      <configuration name="checkLaneBarcodesTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="262202000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="795" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Repositories" order="0" sideWeight="0.49434572" weight="0.32995737" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.48364154" visible="true" weight="0.18884121" />
+      <window_info id="Structure" order="2" sideWeight="0.51635844" side_tool="true" visible="true" weight="0.18884121" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.49729145" side_tool="true" weight="0.18017058" />
+      <window_info id="JavaEE:App" order="8" sideWeight="0.5088853" side_tool="true" weight="0.16897655" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info id="aws.explorer" order="10" sideWeight="0.5060241" side_tool="true" weight="0.17596567" />
+      <window_info id="Learn" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30552545" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946695" weight="0.31310943" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49413645" weight="0.38678223" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4968017" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4946695" weight="0.29036143" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5053305" side_tool="true" weight="0.40843374" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840087" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49840087" weight="0.32827735" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.4978678" weight="0.32827735" />
+      <window_info anchor="bottom" id="Statistic" order="15" weight="0.32936078" />
+      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.14179105" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Repositories" order="0" sideWeight="0.49434572" weight="0.32995737" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4911147" visible="true" weight="0.16897655" />
+      <window_info id="Structure" order="2" sideWeight="0.5072698" side_tool="true" weight="0.16577825" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="JavaEE:App" order="8" sideWeight="0.5088853" side_tool="true" visible="true" weight="0.16897655" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49626866" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.38894907" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49626866" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50373137" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840087" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49840087" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="colors" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="unknowns" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>String text = &quot;CCCCCCCC+AGATCTCG&quot;;
+String patternString = &quot;CCCC&quot;;
+Pattern pattern = Pattern.compile(patternString);
+Matcher matcher = pattern.matcher(text);
+int count = 0;
+while(matcher.find()) {
+    count++;
+    System.out.println(&quot;found: &quot; + count + &quot; : &quot;
+            + matcher.start() + &quot; - &quot; + matcher.end());
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.regex.Pattern,java.util.regex.Matcher</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>conversionResultsEntries.get(3).DemuxResults.get(0).ReadMetrics.get(0).Yield ==</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>conversionResultsEntries.get(3).DemuxResults.get(0).SampleId</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for (Map.Entry&lt;String, Long&gt; entry :)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>colors</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c.getColors()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c.getData()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stats.ConversionResults.get(4).DemuxResults.get(0).SampleName</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>rows.get(10)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rows.get(20)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rows.get(20).select(&quot;td&quot;).get(3).attr(&quot;style&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rows.get(13).select(&quot;td&quot;).get(3).attr(&quot;style&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rows.get(1).select(&quot;td&quot;).get(3).attr(&quot;style&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c.match(&quot;TAGCTTGT+ATTACAAG&quot;, &quot;[ACGT]{6,12}([-+][ACGT]{6,12})?&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String text = &quot;CCCCCCCC+AGATCTCG&quot;;
+String patternString = &quot;/AAAA|CCCC|GGGG|TTTT|NNNN/&quot;;
+Pattern pattern = Pattern.compile(patternString);
+Matcher matcher = pattern.matcher(text);
+int count = 0;
+return matcher.find()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.regex.Pattern,java.util.regex.Matcher</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String text = &quot;CCCCCCCC+AGATCTCG&quot;;
+String patternString = &quot;AAAA|CCCC|GGGG|TTTT|NNNN&quot;;
+Pattern pattern = Pattern.compile(patternString);
+Matcher matcher = pattern.matcher(text);
+int count = 0;
+return matcher.find()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.regex.Pattern,java.util.regex.Matcher</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String text = &quot;CCCCCCCC+AGATCTCG&quot;;
+String patternString = &quot;AAAA|CCCC|GGGG|TTTT|NNNN&quot;;
+Pattern pattern = Pattern.compile(patternString);
+Matcher matcher = pattern.matcher(text);
+int count = 0;
+while(matcher.find()) {
+    count++;
+    return &quot;found: &quot; + count + &quot; : &quot; + matcher.start() + &quot; - &quot; + matcher.end();
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.regex.Pattern,java.util.regex.Matcher</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/parser/TokenQueue.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/select/QueryParser.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/helper/Validate.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/select/Selector.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/select/Elements.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/parser/Tag.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/select/Evaluator.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/select/Collector.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/nodes/LeafNode.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/nodes/Element.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/nodes/Node.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/select/NodeTraversor.class" />
+    <entry file="file://$PROJECT_DIR$/pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_checked_jbu/H2FV2CCX2_checked.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_checked_jbu/H253LCCX2_checked.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_checked_jbu/HWT2GCCXY_checked.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SES_190531_E00593_0215_AH2FJMCCX2/Analysis/Stats/Stats.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_source/H25CTCCX2.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_source/States_SES_190510_E00497_0270_AH25CTCCX2.json" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataHTML/Colors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataHTML/ColorsEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/LaneNumberReadInfos/LaneNumberReadInfos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar!/com/google/gson/GsonBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/aws.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../get-pip.py" />
+    <entry file="file://$PROJECT_DIR$/SES_190531_E00593_0215_AH2FJMCCX2/Analysis/Reports/html/H2FJMCCX2/all/all/all/laneBarcode_checked.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/html_checked/H2FV2CCX2_checked.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/html_checked/H25CTCCX2_checked.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_checked/H25CTCCX2_checked.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="43499" column="27" selection-start-line="43499" selection-start-column="22" selection-end-line="43499" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipelinemanager_tools/node_scripts/checkLaneBarcodes/test/json_checked/H2FV2CCX2_checked.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/checkMultiLaneBarcodes.java" />
+    <entry file="file://$PROJECT_DIR$/temp/Stats_test_output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/FileInputStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/ConversionResults/ConversionResultsEntryComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/ConversionResults/DemuxResults/DemuxResultsEntryComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/UnknownBarcodes/UnknownBarcodesEntryComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/UnknownBarcodes/UnknownBarcodesEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataJson/MultiData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/MultiStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/Stats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataJson/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/checkMultiLaneBarcodesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="108" column="35" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/ConversionResults/DemuxResults/DemuxResultsEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/ConversionResults/ConversionResultsEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="72" column="43" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="43" />
+          <folding>
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/checkLaneBarcodesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.aws/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/checkLaneBarcodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="219" column="1" selection-start-line="219" selection-start-column="1" selection-end-line="219" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>checkLaneBarcodes:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21494253" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21494253" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21494253" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21494253" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>checkLaneBarcodes</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21494253" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.gson:gson:2.8.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21494253" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
