@@ -1,4 +1,5 @@
 DownloadArchive.class
 DeleteArchive.class
-UploadArchive.class
 ListVaults.class
+UploadArchive.class
+CreateVault.class
