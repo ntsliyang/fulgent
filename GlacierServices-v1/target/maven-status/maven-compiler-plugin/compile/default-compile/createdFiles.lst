@@ -1,6 +1,7 @@
 DeleteArchive.class
 ListVaults.class
 com\fulgent\aws\vault\VaultServiceImp.class
+com\fulgent\aws\test\ServiceTest.class
 DownloadArchive.class
 UploadArchive.class
 com\fulgent\aws\archive\ArchiveService.class

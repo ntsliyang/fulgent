@@ -12,7 +12,7 @@ public class VaultServiceImp {
     CreateVaultRequest request = null;
     String accountId = "";
 
-    private VaultServiceImp(String accountId)
+    public VaultServiceImp(String accountId)
     {
         glacierClient = AmazonGlacierClientBuilder.defaultClient();
         this.accountId = accountId;
