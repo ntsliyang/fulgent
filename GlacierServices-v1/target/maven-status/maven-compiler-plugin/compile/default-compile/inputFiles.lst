@@ -1,7 +1,7 @@
 C:\sourcecode\java\fulgent\GlacierServices-v1\src\main\java\CreateVault.java
 C:\sourcecode\java\fulgent\GlacierServices-v1\src\main\java\ListVaults.java
 C:\sourcecode\java\fulgent\GlacierServices-v1\src\main\java\DownloadArchive.java
-C:\sourcecode\java\fulgent\GlacierServices-v1\src\main\java\com\fulgent\aws\vault\vaultService.java
+C:\sourcecode\java\fulgent\GlacierServices-v1\src\main\java\com\fulgent\aws\vault\VaultService.java
 C:\sourcecode\java\fulgent\GlacierServices-v1\src\main\java\com\fulgent\aws\archive\ArchiveServiceImp.java
 C:\sourcecode\java\fulgent\GlacierServices-v1\src\main\java\DeleteArchive.java
 C:\sourcecode\java\fulgent\GlacierServices-v1\src\main\java\UploadArchive.java

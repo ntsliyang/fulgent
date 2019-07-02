@@ -7,6 +7,25 @@ import org.apache.commons.cli.*;
 import java.util.List;
 
 public class ServiceTest {
+
+    static void createVault_test(String accountId, String vaultName) {
+    }
+
+    static void listVaults_test(String accountId) {
+        VaultServiceImp vii = new VaultServiceImp(accountId);
+
+        List<DescribeVaultOutput> lv = vii.listVaults();
+        for (DescribeVaultOutput v : lv) {
+            System.out.println(
+                    "\nCreationDate: " + v.getCreationDate() +
+                            "\nLastInventoryDate: " + v.getLastInventoryDate() +
+                            "\nNumberOfArchives: " + v.getNumberOfArchives() +
+                            "\nSizeInBytes: " + v.getSizeInBytes() +
+                            "\nVaultARN: " + v.getVaultARN() +
+                            "\nVaultName: " + v.getVaultName());
+        }
+    }
+
     public static void main(String[] args) {
 
         Options options = new Options();
@@ -14,6 +33,10 @@ public class ServiceTest {
         Option account = new Option("accountId", "account id", true, "account id");
         account.setRequired(true);
         options.addOption(account);
+
+        Option vault = new Option("vaultName", "vault name ", true, "vault name");
+        vault.setRequired(true);
+        options.addOption(vault);
 
         CommandLineParser parser = new DefaultParser();
         HelpFormatter formatter = new HelpFormatter();
@@ -28,19 +51,8 @@ public class ServiceTest {
             System.exit(1);
         }
 
-        String accountId = cmd.getOptionValue("accountId");
+        createVault_test(cmd.getOptionValue("accountId"), cmd.getOptionValue("vaultName"));
 
-        VaultServiceImp vii = new VaultServiceImp(accountId);
-
-        List<DescribeVaultOutput> lv = vii.listVaults();
-        for (DescribeVaultOutput v : lv) {
-            System.out.println(
-                    "\nCreationDate: " + v.getCreationDate() +
-                            "\nLastInventoryDate: " + v.getLastInventoryDate() +
-                            "\nNumberOfArchives: " + v.getNumberOfArchives() +
-                            "\nSizeInBytes: " + v.getSizeInBytes() +
-                            "\nVaultARN: " + v.getVaultARN() +
-                            "\nVaultName: " + v.getVaultName());
-        }
+        listVaults_test(cmd.getOptionValue("accountId"));
     }
 }

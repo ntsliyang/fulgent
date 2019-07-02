@@ -7,7 +7,7 @@ import com.amazonaws.services.glacier.model.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VaultServiceImp {
+public class VaultServiceImp implements VaultService{
     AmazonGlacier glacierClient = null;
     CreateVaultRequest request = null;
     String accountId = "";
@@ -40,32 +40,32 @@ public class VaultServiceImp {
             List<DescribeVaultOutput> vaultList = listVaultsResult.getVaultList();
             result.addAll(vaultList);
             marker = listVaultsResult.getMarker();
-            for (DescribeVaultOutput vault : vaultList) {
-                System.out.println(
-                        "\nCreationDate: " + vault.getCreationDate() +
-                                "\nLastInventoryDate: " + vault.getLastInventoryDate() +
-                                "\nNumberOfArchives: " + vault.getNumberOfArchives() +
-                                "\nSizeInBytes: " + vault.getSizeInBytes() +
-                                "\nVaultARN: " + vault.getVaultARN() +
-                                "\nVaultName: " + vault.getVaultName());
-            }
+//            for (DescribeVaultOutput vault : vaultList) {
+//                System.out.println(
+//                        "\nCreationDate: " + vault.getCreationDate() +
+//                                "\nLastInventoryDate: " + vault.getLastInventoryDate() +
+//                                "\nNumberOfArchives: " + vault.getNumberOfArchives() +
+//                                "\nSizeInBytes: " + vault.getSizeInBytes() +
+//                                "\nVaultARN: " + vault.getVaultARN() +
+//                                "\nVaultName: " + vault.getVaultName());
+//            }
         } while (marker != null);
 
         return result;
     }
 
-    public ListVaultsResult createVault(String vaultName)
+    public CreateVaultResult createVault(String vaultName)
     {
         if (accountId != null) request = new CreateVaultRequest().withAccountId(this.accountId).withVaultName(vaultName);
         else request = new CreateVaultRequest().withVaultName(vaultName);
 
         CreateVaultResult result = glacierClient.createVault(request);
-        System.out.println("vault successfully created!");
-        System.out.println("vault location: " + result.getLocation());
-        return null;
+//        System.out.println("vault successfully created!");
+//        System.out.println("vault location: " + result.getLocation());
+        return result;
     }
 
-    public boolean deleteVault()
+    public boolean deleteVault(String vaultName)
     {
         //Todo:
         return true;

@@ -3,8 +3,8 @@ ListVaults.class
 com\fulgent\aws\vault\VaultServiceImp.class
 com\fulgent\aws\test\ServiceTest.class
 DownloadArchive.class
+com\fulgent\aws\vault\VaultService.class
 UploadArchive.class
 com\fulgent\aws\archive\ArchiveService.class
 com\fulgent\aws\archive\ArchiveServiceImp.class
 CreateVault.class
-com\fulgent\aws\vault\vaultService.class

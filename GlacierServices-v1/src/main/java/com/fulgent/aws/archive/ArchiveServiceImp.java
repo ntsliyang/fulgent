@@ -10,7 +10,7 @@ import com.amazonaws.services.glacier.transfer.UploadResult;
 
 import java.io.File;
 
-public class ArchiveServiceImp {
+public class ArchiveServiceImp implements ArchiveService{
     ArchiveTransferManager atm = null;
     String accountId = "";
 
