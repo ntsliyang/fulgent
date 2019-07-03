@@ -14,7 +14,7 @@ public class ArchiveServiceImp implements ArchiveService{
     ArchiveTransferManager atm = null;
     String accountId = "";
 
-    private ArchiveServiceImp(String accountId) {
+    public ArchiveServiceImp(String accountId) {
         ArchiveTransferManager atm = new ArchiveTransferManagerBuilder().build();
     }
 
@@ -27,13 +27,13 @@ public class ArchiveServiceImp implements ArchiveService{
         return atm;
     }
 
-    public UploadResult uploadArchive(String archiveFileNamePath, String vaultName, String archiveDescription, String filePath)
+    public UploadResult uploadArchive(String vaultName, String archiveDescription, String filePath)
             throws Exception
     {
-        System.out.println("atm created!");
+//        System.out.println("atm created!");
         UploadResult result = atm.upload(vaultName, archiveDescription, new File(filePath));
-        System.out.println("archived successfully created!");
-        System.out.println("archive ID: " + result.getArchiveId());
+//        System.out.println("archived successfully created!");
+//        System.out.println("archive ID: " + result.getArchiveId());
 
         return result;
     }
@@ -54,7 +54,7 @@ public class ArchiveServiceImp implements ArchiveService{
         return result;
     }
 
-    public void downloaddArchive(String archiveId, String vaultName, String filePath)
+    public void downloadArchive(String archiveId, String vaultName, String filePath)
     {
         ArchiveTransferManager atm = new ArchiveTransferManagerBuilder().build();
         System.out.println("atm created!");
