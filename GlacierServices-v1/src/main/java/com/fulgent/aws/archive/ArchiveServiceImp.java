@@ -3,7 +3,6 @@ package com.fulgent.aws.archive;
 import com.amazonaws.services.glacier.AmazonGlacier;
 import com.amazonaws.services.glacier.AmazonGlacierClientBuilder;
 import com.amazonaws.services.glacier.model.DeleteArchiveRequest;
-import com.amazonaws.services.glacier.model.DeleteArchiveResult;
 import com.amazonaws.services.glacier.transfer.ArchiveTransferManager;
 import com.amazonaws.services.glacier.transfer.ArchiveTransferManagerBuilder;
 import com.amazonaws.services.glacier.transfer.UploadResult;
@@ -27,18 +26,15 @@ public class ArchiveServiceImp implements ArchiveService{
         return atm;
     }
 
-    public UploadResult uploadArchive(String vaultName, String archiveDescription, String filePath)
+    public String uploadArchive(String vaultName, String archiveDescription, String filePath)
             throws Exception
     {
-//        System.out.println("atm created!");
         UploadResult result = atm.upload(vaultName, archiveDescription, new File(filePath));
-//        System.out.println("archived successfully created!");
-//        System.out.println("archive ID: " + result.getArchiveId());
 
-        return result;
+        return result.getArchiveId();
     }
 
-    public DeleteArchiveResult deleteArchive(String archiveId, String vaultName)
+    public void deleteArchive(String archiveId, String vaultName)
     {
         DeleteArchiveRequest request = null;
         AmazonGlacier glacierClient = AmazonGlacierClientBuilder.defaultClient();
@@ -48,19 +44,14 @@ public class ArchiveServiceImp implements ArchiveService{
             request = new DeleteArchiveRequest().withArchiveId(archiveId).withVaultName(vaultName);
         }
 
-        DeleteArchiveResult result = glacierClient.deleteArchive(request);
-        System.out.println("archive successfully deleted!");
-
-        return result;
+        glacierClient.deleteArchive(request);
     }
 
     public void downloadArchive(String archiveId, String vaultName, String filePath)
     {
         ArchiveTransferManager atm = new ArchiveTransferManagerBuilder().build();
-        System.out.println("atm created!");
         if (accountId != null) atm.download(accountId, vaultName, archiveId, new File(filePath));
         else atm.download(vaultName, archiveId, new File(filePath));
-        System.out.println("file successfully downloaded!");
     }
 
 }
