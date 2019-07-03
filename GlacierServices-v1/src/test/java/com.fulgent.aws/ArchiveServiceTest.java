@@ -1,5 +1,6 @@
 package com.fulgent.aws.test;
 
+import com.amazonaws.services.glacier.transfer.ArchiveTransferManager;
 import com.amazonaws.services.glacier.transfer.UploadResult;
 import com.fulgent.aws.archive.ArchiveService;
 import com.fulgent.aws.archive.ArchiveServiceImp;
@@ -29,9 +30,9 @@ public class ArchiveServiceTest {
                 return;
             }
 
-            UploadResult result = serviceInst.uploadArchive(vaultName, archiveDescription, filePath);
+            String archiveId = serviceInst.uploadArchive(vaultName, archiveDescription, filePath);
             System.out.println("archived successfully created!");
-            System.out.println("archive ID: " + result.getArchiveId());
+            System.out.println("archive ID: " + archiveId);
         }
         catch (Exception e)
         {
@@ -41,10 +42,26 @@ public class ArchiveServiceTest {
 
     @Test
     public void deleteArchive_test() {
+        String vaultName = "deleteVault_test";
+        String archiveId = "archiveId";
+        try {
+            serviceInst.deleteArchive(archiveId, vaultName);
+            System.out.println("archived successfully deleted!");
+        } catch (Exception e) {
+            System.out.println("Exception: " + e.toString());
+        }
     }
 
     @Test
     public void downloadArchive_test() {
+        String archiveId = "archiveId";
+        String vaultName = "downloadArchive_test";
+        String filePath = "./testData/test.bam";
+        try {
+            serviceInst.downloadArchive(archiveId, vaultName, filePath);
+        } catch (Exception e) {
+            System.out.println("Exception: " + e.toString());
+        }
     }
 
 }
