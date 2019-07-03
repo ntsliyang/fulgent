@@ -8,11 +8,11 @@ import com.amazonaws.services.glacier.model.ListVaultsResult;
 import java.util.List;
 
 public interface VaultService {
-    public AmazonGlacier getVaultServiceImp(String accountId);
+    AmazonGlacier getVaultServiceImp(String accountId);
 
-    public List<DescribeVaultOutput> listVaults();
+    List<DescribeVaultOutput> listVaults();
 
-    public CreateVaultResult createVault(String vaultName);
+    String createVault(String vaultName);
 
-    public boolean deleteVault(String vaultName);
+    void deleteVault(String vaultName);
 }
