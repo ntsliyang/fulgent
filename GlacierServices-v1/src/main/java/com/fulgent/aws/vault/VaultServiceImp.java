@@ -64,5 +64,6 @@ public class VaultServiceImp implements VaultService{
         else dRequest = new DeleteVaultRequest().withVaultName(vaultName);
 
         glacierClient.deleteVault(dRequest);
+
     }
 }
