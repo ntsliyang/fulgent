@@ -31,14 +31,13 @@ public class VaultServiceImp implements VaultService{
     private static AmazonGlacier glacierClient = null;
     private static AmazonSQS sqsClient;
     private static AmazonSNS snsClient;
-    private static String snsTopicName = "*** provide topic name ***";
-    private static String sqsQueueName = "*** provide queue name ***";
+    private static String snsTopicName = "inventory-retrieval" + System.currentTimeMillis();
+    private static String sqsQueueName = "inventory-retrieval" + System.currentTimeMillis();
     private static String sqsQueueARN;
     private static String sqsQueueURL;
     private static String snsTopicARN;
     private static String snsSubscriptionARN;
-    private static String fileName = "*** provide file name ***";
-    private static String region = "*** region ***";
+    //private static String region = "us-west-2";
     private static long sleepTime = 600;
 
     private static CreateVaultRequest cRequest = null;
@@ -99,9 +98,10 @@ public class VaultServiceImp implements VaultService{
 
     }
 
-    public void downloadVault(String vaultName) {
+    public void downloadVault(String vaultName, String outFileName) {
         sqsClient = AmazonSQSClientBuilder.defaultClient();
         snsClient = AmazonSNSClientBuilder.defaultClient();
+        String fileName = "./output-manifest.json";
 
         try {
             setupSQS();
@@ -114,7 +114,7 @@ public class VaultServiceImp implements VaultService{
             Boolean success = waitForJobToComplete(jobId, sqsQueueURL);
             if (!success) { throw new Exception("Job did not complete successfully."); }
 
-            downloadJobOutput(jobId, vaultName);
+            downloadJobOutput(jobId, vaultName, fileName);
 
             cleanUp();
 
@@ -124,7 +124,7 @@ public class VaultServiceImp implements VaultService{
         }
     }
 
-    protected void downloadJobOutput(String jobId, String vaultName) throws IOException
+    protected void downloadJobOutput(String jobId, String vaultName, String fileName) throws IOException
     {
         GetJobOutputRequest getJobOutputRequest = new GetJobOutputRequest()
                 .withVaultName(vaultName)

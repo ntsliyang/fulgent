@@ -15,7 +15,7 @@ public interface VaultService {
 
     void deleteVault(String vaultName);
 
-    void downloadVault(String vaultName);
+    void downloadVault(String vaultName, String outFileName);
 
 //    void downloadJobOutput(String jobId, String vaultName) throws IOException;
 

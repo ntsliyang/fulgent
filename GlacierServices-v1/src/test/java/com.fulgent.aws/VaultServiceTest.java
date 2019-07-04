@@ -44,8 +44,8 @@ public class VaultServiceTest {
 
     @Test
     public void downloadVault_test() {
-        String vaultName = "createVault_test";
-        vaultServiceInst.downloadVault(vaultName);
+        String vaultName = "drtest";
+        vaultServiceInst.downloadVault(vaultName, "./testData/output.json");
         System.out.print("downloadVault_test done, inventory is at ???");
     }
 }
