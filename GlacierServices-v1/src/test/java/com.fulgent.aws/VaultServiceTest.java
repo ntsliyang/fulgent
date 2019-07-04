@@ -23,9 +23,9 @@ public class VaultServiceTest {
     @Test
     public void createVault_test() {
         String vaultName = "createVault_test";
-        CreateVaultResult result = vaultServiceInst.createVault(vaultName);
+        String result = vaultServiceInst.createVault(vaultName);
         System.out.println("vault successfully created!");
-        System.out.println("vault location: " + result.getLocation());
+        System.out.println("vault location: " + result);
     }
 
     @Test
@@ -42,4 +42,10 @@ public class VaultServiceTest {
         }
     }
 
+    @Test
+    public void downloadVault_test() {
+        String vaultName = "createVault_test";
+        vaultServiceInst.downloadVault(vaultName);
+        System.out.print("downloadVault_test done, inventory is at ???");
+    }
 }

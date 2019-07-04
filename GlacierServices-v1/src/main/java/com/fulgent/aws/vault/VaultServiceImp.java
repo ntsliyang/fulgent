@@ -99,7 +99,7 @@ public class VaultServiceImp implements VaultService{
 
     }
 
-    public void downloadVault(String vaultName, String fileName) {
+    public void downloadVault(String vaultName) {
         sqsClient = AmazonSQSClientBuilder.defaultClient();
         snsClient = AmazonSNSClientBuilder.defaultClient();
 
@@ -124,7 +124,7 @@ public class VaultServiceImp implements VaultService{
         }
     }
 
-    public void downloadJobOutput(String jobId, String vaultName) throws IOException
+    protected void downloadJobOutput(String jobId, String vaultName) throws IOException
     {
         GetJobOutputRequest getJobOutputRequest = new GetJobOutputRequest()
                 .withVaultName(vaultName)
@@ -148,7 +148,7 @@ public class VaultServiceImp implements VaultService{
         System.out.println("Retrieved inventory to " + fileName);
     }
 
-    public void setupSQS() {
+    protected void setupSQS() {
         CreateQueueRequest request = new CreateQueueRequest()
                 .withQueueName(sqsQueueName);
         CreateQueueResult result = sqsClient.createQueue(request);
@@ -173,7 +173,7 @@ public class VaultServiceImp implements VaultService{
 
     }
 
-    public void setupSNS() {
+    protected void setupSNS() {
         CreateTopicRequest request = new CreateTopicRequest()
                 .withName(snsTopicName);
         CreateTopicResult result = snsClient.createTopic(request);
@@ -188,7 +188,7 @@ public class VaultServiceImp implements VaultService{
         snsSubscriptionARN = result2.getSubscriptionArn();
     }
 
-    public String initiateJobRequest(String vaultName) {
+    protected String initiateJobRequest(String vaultName) {
 
         JobParameters jobParameters = new JobParameters()
                 .withType("inventory-retrieval")
@@ -203,7 +203,7 @@ public class VaultServiceImp implements VaultService{
         return response.getJobId();
     }
 
-    public Boolean waitForJobToComplete(String jobId, String sqsQueueUrl) throws InterruptedException, IOException {
+    protected Boolean waitForJobToComplete(String jobId, String sqsQueueUrl) throws InterruptedException, IOException {
 
         Boolean messageFound = false;
         Boolean jobSuccessful = false;
@@ -239,7 +239,7 @@ public class VaultServiceImp implements VaultService{
         return (messageFound && jobSuccessful);
     }
 
-    public void cleanUp() {
+    protected void cleanUp() {
         snsClient.unsubscribe(new UnsubscribeRequest(snsSubscriptionARN));
         snsClient.deleteTopic(new DeleteTopicRequest(snsTopicARN));
         sqsClient.deleteQueue(new DeleteQueueRequest(sqsQueueURL));

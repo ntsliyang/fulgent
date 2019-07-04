@@ -15,17 +15,17 @@ public interface VaultService {
 
     void deleteVault(String vaultName);
 
-    void downloadVault(String vaultName, String fileName);
+    void downloadVault(String vaultName);
 
-    void downloadJobOutput(String jobId, String vaultName) throws IOException;
+//    void downloadJobOutput(String jobId, String vaultName) throws IOException;
 
-    void setupSNS();
+//    void setupSNS();
+//
+//    void setupSQS();
 
-    void setupSQS();
-
-    String initiateJobRequest(String vaultName);
-
-    Boolean waitForJobToComplete(String jobId, String sqsQueueUrl) throws InterruptedException, IOException;
-
-    void cleanUp();
+//    String initiateJobRequest(String vaultName);
+//
+//    Boolean waitForJobToComplete(String jobId, String sqsQueueUrl) throws InterruptedException, IOException;
+//
+//    void cleanUp();
 }
