@@ -51,6 +51,7 @@ public class VaultServiceImp implements VaultService{
         this.accountId = accountId;
     }
 
+    @Override
     public AmazonGlacier getVaultServiceImp(String accountId)
     {
         if (glacierClient == null) {
@@ -60,6 +61,7 @@ public class VaultServiceImp implements VaultService{
         return glacierClient;
     }
 
+    @Override
     public List<DescribeVaultOutput> listVaults()
     {
         List<DescribeVaultOutput> result = new ArrayList<>();
@@ -78,6 +80,7 @@ public class VaultServiceImp implements VaultService{
         return result;
     }
 
+    @Override
     public String createVault(String vaultName)
     {
         if (accountId != null) cRequest = new CreateVaultRequest().withAccountId(this.accountId).withVaultName(vaultName);
@@ -89,6 +92,7 @@ public class VaultServiceImp implements VaultService{
         return result.getLocation();
     }
 
+    @Override
     public void deleteVault(String vaultName)
     {
         if (accountId != null) dRequest = new DeleteVaultRequest().withAccountId(this.accountId).withVaultName(vaultName);
@@ -98,6 +102,7 @@ public class VaultServiceImp implements VaultService{
 
     }
 
+    @Override
     public void downloadVault(String vaultName, String outFileName) {
         sqsClient = AmazonSQSClientBuilder.defaultClient();
         snsClient = AmazonSNSClientBuilder.defaultClient();
