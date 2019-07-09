@@ -1,9 +1,0 @@
-DeleteArchive.class
-ListVaults.class
-com\fulgent\aws\vault\VaultServiceImp.class
-DownloadArchive.class
-com\fulgent\aws\vault\VaultService.class
-UploadArchive.class
-com\fulgent\aws\archive\ArchiveService.class
-com\fulgent\aws\archive\ArchiveServiceImp.class
-CreateVault.class
