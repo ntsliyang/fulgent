@@ -1,4 +1,4 @@
-package com.fulgent.aws.test;
+package com.fulgent.aws;
 
 
 import com.amazonaws.services.glacier.AmazonGlacier;
