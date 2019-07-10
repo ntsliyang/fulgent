@@ -17,6 +17,7 @@ public class ArchiveServiceImp implements ArchiveService{
         ArchiveTransferManager atm = new ArchiveTransferManagerBuilder().build();
     }
 
+    @Override
     public ArchiveTransferManager getArchiveServiceImp(String accountId) {
         if (atm == null) {
             atm =new ArchiveTransferManagerBuilder().build();
@@ -26,6 +27,7 @@ public class ArchiveServiceImp implements ArchiveService{
         return atm;
     }
 
+    @Override
     public String uploadArchive(String vaultName, String archiveDescription, String filePath)
             throws Exception
     {
@@ -34,6 +36,7 @@ public class ArchiveServiceImp implements ArchiveService{
         return result.getArchiveId();
     }
 
+    @Override
     public void deleteArchive(String archiveId, String vaultName)
     {
         DeleteArchiveRequest request = null;
@@ -47,6 +50,7 @@ public class ArchiveServiceImp implements ArchiveService{
         glacierClient.deleteArchive(request);
     }
 
+    @Override
     public void downloadArchive(String archiveId, String vaultName, String filePath)
     {
         ArchiveTransferManager atm = new ArchiveTransferManagerBuilder().build();

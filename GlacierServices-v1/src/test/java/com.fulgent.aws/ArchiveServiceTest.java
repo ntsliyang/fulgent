@@ -19,7 +19,7 @@ public class ArchiveServiceTest {
 
     @Test
     public void uploadArchive_test() {
-        String vaultName = "createVault_test";
+        String vaultName = "drtest";
         String archiveDescription = "test.bam";
         String filePath = "./testData/test.bam";
         try {
@@ -55,7 +55,7 @@ public class ArchiveServiceTest {
     @Test
     public void downloadArchive_test() {
         String archiveId = "archiveId";
-        String vaultName = "downloadArchive_test";
+        String vaultName = "drtest";
         String filePath = "./testData/test.bam";
         try {
             serviceInst.downloadArchive(archiveId, vaultName, filePath);
