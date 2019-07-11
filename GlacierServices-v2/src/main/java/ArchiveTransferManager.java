@@ -15,7 +15,7 @@ import java.io.IOException;
 
 public interface ArchiveTransferManager {
 
-   GlacierClient getGlacierClient();
+    GlacierClient getGlacierClient();
 
     default String upload(String vaultName, String archiveDescription, String fileName) throws IOException {
         return this.upload(null, vaultName, archiveDescription, fileName);
@@ -39,7 +39,7 @@ public interface ArchiveTransferManager {
 
     static ArchiveTransferManager create() {return builder().build();}
 
-    static ArchiveTransferManager.Builder builder() {return new ArchiveTransferManagerImpl().Builder();}
+    static ArchiveTransferManager.Builder builder() {return new ArchiveTransferManagerBuilder();}
 
     interface Builder {
         Builder glacierClient(GlacierClient glacierClient);

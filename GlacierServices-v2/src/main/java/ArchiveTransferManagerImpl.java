@@ -28,15 +28,15 @@ import java.util.List;
 
 public class ArchiveTransferManagerImpl implements ArchiveTransferManager {
 
-    private static GlacierClient glacierClient;
+    private GlacierClient glacierClient;
 
-    private static SqsClient sqsClient;
+    private SqsClient sqsClient;
 
-    private static SnsClient snsClient;
+    private SnsClient snsClient;
 
-    private static AwsCredentialsProvider credentialsProvider;
+    private AwsCredentialsProvider credentialsProvider;
 
-    private static ClientOverrideConfiguration clientOverrideConfiguration;
+    private ClientOverrideConfiguration clientOverrideConfiguration;
 
     /** Threshold, in bytes, for when to use the multipart upload operations */
     private static final long MULTIPART_UPLOAD_SIZE_THRESHOLD = 1024L * 1024L * 100;
@@ -57,12 +57,22 @@ public class ArchiveTransferManagerImpl implements ArchiveTransferManager {
     private static String snsTopicARN;
     private static String snsSubscriptionARN;
 
-    public ArchiveTransferManager.Builder Builder() {
-        return new ArchiveTransferManagerBuilderImpl();
-    }
-
     public GlacierClient getGlacierClient() {
         return glacierClient;
+    }
+
+    public ArchiveTransferManagerImpl(
+            GlacierClient glacierClient,
+            SqsClient sqsClient,
+            SnsClient snsClient,
+            AwsCredentialsProvider credentialsProvider,
+            ClientOverrideConfiguration clientOverrideConfiguration
+    ) {
+        this.glacierClient = glacierClient;
+        this.sqsClient = sqsClient;
+        this.snsClient = snsClient;
+        this.credentialsProvider = credentialsProvider;
+        this.clientOverrideConfiguration = clientOverrideConfiguration;
     }
 
     @Override
@@ -465,46 +475,6 @@ public class ArchiveTransferManagerImpl implements ArchiveTransferManager {
         fstream.close();
         System.out.println("Retrieved file to " + fileName);
 
-    }
-
-    private class ArchiveTransferManagerBuilderImpl implements ArchiveTransferManager.Builder {
-        @Override
-        public ArchiveTransferManager.Builder glacierClient(GlacierClient glacierClient) {
-            ArchiveTransferManagerImpl.glacierClient = glacierClient;
-            return ArchiveTransferManager.builder().glacierClient(glacierClient);
-            // => new ArchiveTransferManagerImpl().Builder().glacierClient(glacierClient)
-            // => new ArchiveTransferManagerImpl().(new ArchiveTransferManagerBuilderImpl()).glacierClient(glacierClient)
-            // =>
-        }
-
-        @Override
-        public ArchiveTransferManager.Builder sqsClient(SqsClient sqsClient) {
-            ArchiveTransferManagerImpl.sqsClient = sqsClient;
-            return ArchiveTransferManager.builder().sqsClient(sqsClient);
-        }
-
-        @Override
-        public ArchiveTransferManager.Builder snsClient(SnsClient snsClient) {
-            ArchiveTransferManagerImpl.snsClient = snsClient;
-            return ArchiveTransferManager.builder().snsClient(snsClient);
-        }
-
-        @Override
-        public ArchiveTransferManager.Builder credentialsProvider(AwsCredentialsProvider credentialsProvider) {
-            ArchiveTransferManagerImpl.credentialsProvider = credentialsProvider;
-            return ArchiveTransferManager.builder().credentialsProvider(credentialsProvider);
-        }
-
-        @Override
-        public ArchiveTransferManager.Builder clientOverrideConfiguration(ClientOverrideConfiguration clientOverrideConfiguration) {
-            ArchiveTransferManagerImpl.clientOverrideConfiguration = clientOverrideConfiguration;
-            return ArchiveTransferManager.builder().clientOverrideConfiguration(clientOverrideConfiguration);
-        }
-
-        @Override
-        public ArchiveTransferManager build() {
-            return ArchiveTransferManager.builder().build();
-        }
     }
 
     @Override
