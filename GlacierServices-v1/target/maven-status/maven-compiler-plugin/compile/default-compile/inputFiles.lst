@@ -1,9 +1,0 @@
-/Users/apple/Documents/GitHub/fulgent/GlacierServices-v1/src/main/java/com/fulgent/aws/archive/ArchiveServiceImp.java
-/Users/apple/Documents/GitHub/fulgent/GlacierServices-v1/src/main/java/com/fulgent/aws/vault/VaultServiceImp.java
-/Users/apple/Documents/GitHub/fulgent/GlacierServices-v1/src/main/java/UploadArchive.java
-/Users/apple/Documents/GitHub/fulgent/GlacierServices-v1/src/main/java/DeleteArchive.java
-/Users/apple/Documents/GitHub/fulgent/GlacierServices-v1/src/main/java/ListVaults.java
-/Users/apple/Documents/GitHub/fulgent/GlacierServices-v1/src/main/java/com/fulgent/aws/archive/ArchiveService.java
-/Users/apple/Documents/GitHub/fulgent/GlacierServices-v1/src/main/java/com/fulgent/aws/vault/VaultService.java
-/Users/apple/Documents/GitHub/fulgent/GlacierServices-v1/src/main/java/CreateVault.java
-/Users/apple/Documents/GitHub/fulgent/GlacierServices-v1/src/main/java/DownloadArchive.java
