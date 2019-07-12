@@ -1,6 +1,6 @@
 # GlacierServices-v2
 
-This repo includes two AWS S3 Glacier high-level API [ArchiveTransferManager](src/main/java/archive) and [VaultTransferManager](src/main/java/vault), which provide interfaces to enable different kinds of actions on **archive** and **vault**.
+This repo includes two [AWS S3 Glacier](https://aws.amazon.com/glacier/) high-level API [ArchiveTransferManager](src/main/java/archive) and [VaultTransferManager](src/main/java/vault), which provide interfaces to enable different kinds of actions on **archive** and **vault**.
 
 ## Usage    
 ```bash
