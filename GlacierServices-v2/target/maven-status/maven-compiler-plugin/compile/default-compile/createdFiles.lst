@@ -1,0 +1,10 @@
+ArchiveTransferManagerImpl.class
+Main.class
+ArchiveTransferManagerBuilder.class
+TreeHashGenerator.class
+ArchiveTransferManager$Builder.class
+ArchiveTransferManagerParams.class
+VaultTransferManagerBuilder.class
+VaultTransferManagerParams.class
+ArchiveTransferManager.class
+TreeHashInputStream.class

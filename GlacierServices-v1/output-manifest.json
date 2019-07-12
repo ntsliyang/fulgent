@@ -1,1 +1,13 @@
-{"VaultARN":"arn:aws:glacier:us-west-2:264556185871:vaults/drtest","InventoryDate":"2019-06-29T09:03:49Z","ArchiveList":[{"ArchiveId":"TM3a645LauqD6uOLmYqlANasKWNFya3gFxAU6hwFCjOl4qy-CpiiORMmFwR_rFwFNpfBfUSTZiuMDk-ENrMiTCB-0kxI1rQVuXNrRPDUAgRHVYYXI49_3SzX7ZQ_VuISWcGqsAYZ7Q","ArchiveDescription":"my archive Fri Jun 28 16:15:48 PDT 2019","CreationDate":"2019-06-28T23:15:49Z","Size":16,"SHA256TreeHash":"11586d2eb43b73e539caa3d158c883336c0e2c904b309c0c5ffe2c9b83d562a1"}]}
+{
+  "VaultARN": "arn:aws:glacier:us-west-2:264556185871:vaults/drtest",
+  "InventoryDate": "2019-06-29T09:03:49Z",
+  "ArchiveList": [
+    {
+      "ArchiveId": "TM3a645LauqD6uOLmYqlANasKWNFya3gFxAU6hwFCjOl4qy-CpiiORMmFwR_rFwFNpfBfUSTZiuMDk-ENrMiTCB-0kxI1rQVuXNrRPDUAgRHVYYXI49_3SzX7ZQ_VuISWcGqsAYZ7Q",
+      "ArchiveDescription": "my archive Fri Jun 28 16:15:48 PDT 2019",
+      "CreationDate": "2019-06-28T23:15:49Z",
+      "Size": 16,
+      "SHA256TreeHash": "11586d2eb43b73e539caa3d158c883336c0e2c904b309c0c5ffe2c9b83d562a1"
+    }
+  ]
+}
