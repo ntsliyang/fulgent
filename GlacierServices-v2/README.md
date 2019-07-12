@@ -13,7 +13,7 @@ where options and corresponding parameters include:
     createVault [accountId] [vaultName]
 ``` 
 
-- describe a vault with specified 'accountId' and 'vaultName' (click [here](https://docs.aws.amazon.com/amazonglacier/latest/dev/retrieving-vault-info-sdk-java.html) for v1 implementation)
+- describe a vault with specified `accountId` and `vaultName` (click [here](https://docs.aws.amazon.com/amazonglacier/latest/dev/retrieving-vault-info-sdk-java.html) for v1 implementation)
 ```bash
     describeVault [accountId] [vaultName]
 ```    
